@@ -85,3 +85,10 @@ crashlytics-build.properties
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
 
 # Custom
+/[Aa]ssets/Spine/*
+/[Aa]ssets/FantaziaCharacterEditor/*
+/[Aa]ssets/FantaziaCharacterEditor.meta
+/[Aa]ssets/4Direction Animated 2D Monsters (Fantazia Top Down)/*
+/[Aa]ssets/4Direction Animated 2D Monsters (Fantazia Top Down).meta
+/[Aa]ssets/Mega Platformer Backgrounds (Fantazia)/*
+/[Aa]ssets/Mega Platformer Backgrounds (Fantazia).meta
