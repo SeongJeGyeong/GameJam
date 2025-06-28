@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8989742084725183946}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 8461317228000813907}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 799846549120838160}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 5959322115892997307}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -533,7 +533,7 @@ GameObject:
   - component: {fileID: 5590903723727130514}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -663,7 +663,7 @@ GameObject:
   - component: {fileID: 3414313092800100695}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -723,7 +723,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -793,7 +793,7 @@ GameObject:
   - component: {fileID: 4134684508415468508}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -853,7 +853,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -923,7 +923,7 @@ GameObject:
   - component: {fileID: 7347364807631239423}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -983,7 +983,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1053,7 +1053,7 @@ GameObject:
   - component: {fileID: 4309891491235755536}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1183,7 +1183,7 @@ GameObject:
   - component: {fileID: 2414760772861999166}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1313,7 +1313,7 @@ GameObject:
   - component: {fileID: 4966272512221835176}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1443,7 +1443,7 @@ GameObject:
   - component: {fileID: 7923910815282634145}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopLeft2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1573,7 +1573,7 @@ GameObject:
   - component: {fileID: 5651495857564919282}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1703,7 +1703,7 @@ GameObject:
   - component: {fileID: 8314938825917461178}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1763,7 +1763,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0fd95224f8286d04a9deb5cf1cc008f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1820,6 +1820,168 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &341684083844924649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8981630521347139625}
+  - component: {fileID: 3736703380672194931}
+  - component: {fileID: 923887524032068921}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform4_Left
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8981630521347139625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341684083844924649}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -23.28, y: -2.1, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6101081263489606230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3736703380672194931
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341684083844924649}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 69b60a403df0bbf41b4c2df3617e9312, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &923887524032068921
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341684083844924649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
+--- !u!1 &397994495587132184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6409352175724360176}
+  m_Layer: 0
+  m_Name: Stairs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6409352175724360176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397994495587132184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6101081263489606230}
+  m_Father: {fileID: 8969922484936886481}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &423882794399744241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,7 +1995,7 @@ GameObject:
   - component: {fileID: 8057762518143180542}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1963,7 +2125,7 @@ GameObject:
   - component: {fileID: 1314388259222750408}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2093,7 +2255,7 @@ GameObject:
   - component: {fileID: 3669626277245465961}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2223,7 +2385,7 @@ GameObject:
   - component: {fileID: 5547013895028644593}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2353,7 +2515,7 @@ GameObject:
   - component: {fileID: 4490870563032767586}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2483,7 +2645,7 @@ GameObject:
   - component: {fileID: 5377140094674949681}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2613,7 +2775,7 @@ GameObject:
   - component: {fileID: 5322034684762871736}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2673,7 +2835,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2743,7 +2905,7 @@ GameObject:
   - component: {fileID: 8733620702374889641}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2873,7 +3035,7 @@ GameObject:
   - component: {fileID: 4866352463165123004}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3003,7 +3165,7 @@ GameObject:
   - component: {fileID: 7976587183992348997}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3063,7 +3225,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3133,7 +3295,7 @@ GameObject:
   - component: {fileID: 8311420883110978894}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3263,7 +3425,7 @@ GameObject:
   - component: {fileID: 6340647483557403008}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3393,7 +3555,7 @@ GameObject:
   - component: {fileID: 2437437802208438814}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3523,7 +3685,7 @@ GameObject:
   - component: {fileID: 5055379104777898958}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3583,7 +3745,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0fd95224f8286d04a9deb5cf1cc008f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3653,7 +3815,7 @@ GameObject:
   - component: {fileID: 1585431449235700654}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3783,7 +3945,7 @@ GameObject:
   - component: {fileID: 8108691571852437730}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3913,7 +4075,7 @@ GameObject:
   - component: {fileID: 3492423431456889160}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4043,7 +4205,7 @@ GameObject:
   - component: {fileID: 973233886355223877}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4173,7 +4335,7 @@ GameObject:
   - component: {fileID: 5780786309653319315}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4303,7 +4465,7 @@ GameObject:
   - component: {fileID: 1682220627930470329}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4433,7 +4595,7 @@ GameObject:
   - component: {fileID: 7469726871109565613}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4563,7 +4725,7 @@ GameObject:
   - component: {fileID: 66953604623672939}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4693,7 +4855,7 @@ GameObject:
   - component: {fileID: 14812409430909808}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4823,7 +4985,7 @@ GameObject:
   - component: {fileID: 4016353024958954355}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4883,7 +5045,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0fd95224f8286d04a9deb5cf1cc008f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4953,7 +5115,7 @@ GameObject:
   - component: {fileID: 4667901455713195491}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5083,7 +5245,7 @@ GameObject:
   - component: {fileID: 2099809446517179175}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5231,6 +5393,7 @@ Transform:
   m_Children:
   - {fileID: 2468303093064591300}
   - {fileID: 8988036128980665094}
+  - {fileID: 4795160140207326591}
   m_Father: {fileID: 3711949813163165446}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1019308371674342470
@@ -5246,7 +5409,7 @@ GameObject:
   - component: {fileID: 7352904508207132266}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5376,7 +5539,7 @@ GameObject:
   - component: {fileID: 257184551607157730}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5506,7 +5669,7 @@ GameObject:
   - component: {fileID: 5666440270951156721}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5566,7 +5729,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5636,7 +5799,7 @@ GameObject:
   - component: {fileID: 3671390576731228434}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5766,7 +5929,7 @@ GameObject:
   - component: {fileID: 7115131004269794817}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5826,7 +5989,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5896,7 +6059,7 @@ GameObject:
   - component: {fileID: 6838801070715636229}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6026,7 +6189,7 @@ GameObject:
   - component: {fileID: 3887395619537385744}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6156,7 +6319,7 @@ GameObject:
   - component: {fileID: 588337907719520445}
   m_Layer: 10
   m_Name: Cave_Day_Platform7_Middle (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6174,7 +6337,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8810976358385096306}
+  m_Father: {fileID: 490325552067418398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3157861879231578765
 SpriteRenderer:
@@ -6286,7 +6449,7 @@ GameObject:
   - component: {fileID: 8448946175743749356}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6416,7 +6579,7 @@ GameObject:
   - component: {fileID: 4719381707001928549}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6476,7 +6639,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6546,7 +6709,7 @@ GameObject:
   - component: {fileID: 7619383085766598797}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6693,6 +6856,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1946796511021401346}
+  - {fileID: 6409352175724360176}
   m_Father: {fileID: 5065216922283806135}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1360707213733032479
@@ -6708,7 +6872,7 @@ GameObject:
   - component: {fileID: 6176943866217581657}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6825,6 +6989,74 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &1409502553243511437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6101081263489606230}
+  - component: {fileID: 2922756651676290811}
+  m_Layer: 0
+  m_Name: stair (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6101081263489606230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409502553243511437}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8981630521347139625}
+  - {fileID: 8297788157628115550}
+  - {fileID: 1424400733172267190}
+  - {fileID: 4122049330439191650}
+  - {fileID: 313667304064042648}
+  - {fileID: 2301721258929594288}
+  - {fileID: 1669023081612073124}
+  - {fileID: 6362552603776285998}
+  - {fileID: 2864277372054055929}
+  m_Father: {fileID: 6409352175724360176}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &2922756651676290811
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409502553243511437}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1441743942876105344
 GameObject:
   m_ObjectHideFlags: 0
@@ -6838,7 +7070,7 @@ GameObject:
   - component: {fileID: 8832153542778599893}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6898,7 +7130,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6968,7 +7200,7 @@ GameObject:
   - component: {fileID: 1373125983437142830}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7028,7 +7260,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7098,7 +7330,7 @@ GameObject:
   - component: {fileID: 689289552453130702}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7158,7 +7390,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0fd95224f8286d04a9deb5cf1cc008f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7228,7 +7460,7 @@ GameObject:
   - component: {fileID: 5577160971945981706}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7345,6 +7577,136 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &1643144825424895955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4122049330439191650}
+  - component: {fileID: 4448802753835963563}
+  - component: {fileID: 4134223850492700564}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform4_Middle
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4122049330439191650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643144825424895955}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -20.28, y: -2.1, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6101081263489606230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4448802753835963563
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643144825424895955}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: bb9ef88a8f130424b869eda4eafa0d41, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &4134223850492700564
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643144825424895955}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &1675923845594642402
 GameObject:
   m_ObjectHideFlags: 0
@@ -7358,7 +7720,7 @@ GameObject:
   - component: {fileID: 1346369332313917038}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7488,7 +7850,7 @@ GameObject:
   - component: {fileID: 7697732783173422761}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7618,7 +7980,7 @@ GameObject:
   - component: {fileID: 1589251388621144781}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7748,7 +8110,7 @@ GameObject:
   - component: {fileID: 2568076759657442322}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7878,7 +8240,7 @@ GameObject:
   - component: {fileID: 6215842082077476713}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7995,6 +8357,136 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &1907480232625712417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 313667304064042648}
+  - component: {fileID: 1376419049096865714}
+  - component: {fileID: 8323917097618322670}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform4_Middle (1)
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &313667304064042648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907480232625712417}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.85, y: -0.04000005, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6101081263489606230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1376419049096865714
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907480232625712417}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: bb9ef88a8f130424b869eda4eafa0d41, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &8323917097618322670
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907480232625712417}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &1913179474970823924
 GameObject:
   m_ObjectHideFlags: 0
@@ -8008,7 +8500,7 @@ GameObject:
   - component: {fileID: 3738026169310177567}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8138,7 +8630,7 @@ GameObject:
   - component: {fileID: 4279685188437301594}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8268,7 +8760,7 @@ GameObject:
   - component: {fileID: 4420235894133321445}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8398,7 +8890,7 @@ GameObject:
   - component: {fileID: 5808053292122904644}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8528,7 +9020,7 @@ GameObject:
   - component: {fileID: 1322523753258992523}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8588,7 +9080,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8658,7 +9150,7 @@ GameObject:
   - component: {fileID: 6445020572970319733}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8788,7 +9280,7 @@ GameObject:
   - component: {fileID: 8151064034136793526}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8918,7 +9410,7 @@ GameObject:
   - component: {fileID: 397343062623573446}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9096,7 +9588,7 @@ GameObject:
   - component: {fileID: 7348010974499987462}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9226,7 +9718,7 @@ GameObject:
   - component: {fileID: 5769438712929882596}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9356,7 +9848,7 @@ GameObject:
   - component: {fileID: 6183254295503213329}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9486,7 +9978,7 @@ GameObject:
   - component: {fileID: 502158983206731281}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9616,7 +10108,7 @@ GameObject:
   - component: {fileID: 1681458466043420415}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9746,7 +10238,7 @@ GameObject:
   - component: {fileID: 2437258510971842336}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9876,7 +10368,7 @@ GameObject:
   - component: {fileID: 8491042117995674336}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10006,7 +10498,7 @@ GameObject:
   - component: {fileID: 529057055200795461}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10203,7 +10695,7 @@ GameObject:
   - component: {fileID: 1259606188876534893}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10263,7 +10755,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10333,7 +10825,7 @@ GameObject:
   - component: {fileID: 1694409453334453320}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10450,38 +10942,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!1 &2809324856490680420
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8881707423314978401}
-  m_Layer: 0
-  m_Name: Prefabs
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8881707423314978401
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2809324856490680420}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5665202595779506338}
-  m_Father: {fileID: 7877049441976956886}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2814694234667414229
 GameObject:
   m_ObjectHideFlags: 0
@@ -10495,7 +10955,7 @@ GameObject:
   - component: {fileID: 4245328138172080031}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10625,7 +11085,7 @@ GameObject:
   - component: {fileID: 3101419563610305236}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10755,7 +11215,7 @@ GameObject:
   - component: {fileID: 1875405859915320524}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10885,7 +11345,7 @@ GameObject:
   - component: {fileID: 2893181661305372435}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11015,7 +11475,7 @@ GameObject:
   - component: {fileID: 5844854615827476033}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11075,7 +11535,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11145,7 +11605,7 @@ GameObject:
   - component: {fileID: 4581003742844749706}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11275,7 +11735,7 @@ GameObject:
   - component: {fileID: 6405719396732172393}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11405,7 +11865,7 @@ GameObject:
   - component: {fileID: 4804663550245570136}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11535,7 +11995,7 @@ GameObject:
   - component: {fileID: 3242130916049825012}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11665,7 +12125,7 @@ GameObject:
   - component: {fileID: 9033897751948911248}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11725,7 +12185,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11795,7 +12255,7 @@ GameObject:
   - component: {fileID: 5722880527748391420}
   m_Layer: 10
   m_Name: Cave_Day_Platform7_Middle (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11813,7 +12273,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8810976358385096306}
+  m_Father: {fileID: 490325552067418398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5436335955094375240
 SpriteRenderer:
@@ -11925,7 +12385,7 @@ GameObject:
   - component: {fileID: 763209854570436503}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12055,7 +12515,7 @@ GameObject:
   - component: {fileID: 4383992294263428700}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12185,7 +12645,7 @@ GameObject:
   - component: {fileID: 2692933811679970625}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12315,7 +12775,7 @@ GameObject:
   - component: {fileID: 3870818760677891105}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12445,7 +12905,7 @@ GameObject:
   - component: {fileID: 6001326972768410763}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12575,7 +13035,7 @@ GameObject:
   - component: {fileID: 1052487871174229322}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12705,7 +13165,7 @@ GameObject:
   - component: {fileID: 2082649863150400346}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12835,7 +13295,7 @@ GameObject:
   - component: {fileID: 3425011774477790416}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12952,6 +13412,136 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &3473053415835679782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1669023081612073124}
+  - component: {fileID: 8927206571288062658}
+  - component: {fileID: 29748999551390761}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform4_Right
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1669023081612073124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473053415835679782}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -17.28, y: -2.1, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6101081263489606230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8927206571288062658
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473053415835679782}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 0d6b36d4473a38e47be94bec2e217cda, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &29748999551390761
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473053415835679782}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &3475468386947110869
 GameObject:
   m_ObjectHideFlags: 0
@@ -12965,7 +13555,7 @@ GameObject:
   - component: {fileID: 7608225777271944365}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13095,7 +13685,7 @@ GameObject:
   - component: {fileID: 5593392296220675583}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13225,7 +13815,7 @@ GameObject:
   - component: {fileID: 7317393850693169319}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13355,7 +13945,7 @@ GameObject:
   - component: {fileID: 513601974170710735}
   m_Layer: 10
   m_Name: Cave_Day_Platform7_Middle (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13373,7 +13963,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8810976358385096306}
+  m_Father: {fileID: 490325552067418398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4674706249178700858
 SpriteRenderer:
@@ -13485,7 +14075,7 @@ GameObject:
   - component: {fileID: 4233143695785673263}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13545,7 +14135,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13663,7 +14253,7 @@ GameObject:
   - component: {fileID: 8259259470916374212}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13793,7 +14383,7 @@ GameObject:
   - component: {fileID: 7481776726892040348}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13923,7 +14513,7 @@ GameObject:
   - component: {fileID: 6551481865732534380}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14053,7 +14643,7 @@ GameObject:
   - component: {fileID: 6399032151856170355}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14183,7 +14773,7 @@ GameObject:
   - component: {fileID: 706470310890107788}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14313,7 +14903,7 @@ GameObject:
   - component: {fileID: 5432539704495171504}
   m_Layer: 10
   m_Name: Cave_Day_Platform7_Bottom
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14331,7 +14921,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8810976358385096306}
+  m_Father: {fileID: 490325552067418398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2748824116306987547
 SpriteRenderer:
@@ -14443,7 +15033,7 @@ GameObject:
   - component: {fileID: 898338484832982510}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14573,7 +15163,7 @@ GameObject:
   - component: {fileID: 8082672717147067784}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14690,6 +15280,136 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &3970812108734960790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1424400733172267190}
+  - component: {fileID: 7509760370749046257}
+  - component: {fileID: 7089214584773880602}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform4_Left (2)
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1424400733172267190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3970812108734960790}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -31.85, y: -1.99, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6101081263489606230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7509760370749046257
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3970812108734960790}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 69b60a403df0bbf41b4c2df3617e9312, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &7089214584773880602
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3970812108734960790}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &3971629803157962862
 GameObject:
   m_ObjectHideFlags: 0
@@ -14703,7 +15423,7 @@ GameObject:
   - component: {fileID: 6923917954317874348}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14833,7 +15553,7 @@ GameObject:
   - component: {fileID: 9025698520878371470}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14963,7 +15683,7 @@ GameObject:
   - component: {fileID: 2721115636147076886}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15093,7 +15813,7 @@ GameObject:
   - component: {fileID: 4885727401255458174}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15223,7 +15943,7 @@ GameObject:
   - component: {fileID: 3482403542346593547}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15353,7 +16073,7 @@ GameObject:
   - component: {fileID: 3888929491876696272}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15413,7 +16133,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15483,7 +16203,7 @@ GameObject:
   - component: {fileID: 7047667989251503438}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15613,7 +16333,7 @@ GameObject:
   - component: {fileID: 4488455058279398121}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15743,7 +16463,7 @@ GameObject:
   - component: {fileID: 3572832256514044740}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15906,7 +16626,7 @@ GameObject:
   - component: {fileID: 6771101259303646762}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16036,7 +16756,7 @@ GameObject:
   - component: {fileID: 5535677871121895519}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16203,7 +16923,7 @@ GameObject:
   - component: {fileID: 3680821737921190106}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16333,7 +17053,7 @@ GameObject:
   - component: {fileID: 1730294802278628836}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16393,7 +17113,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16463,7 +17183,7 @@ GameObject:
   - component: {fileID: 3949824845405931175}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16593,7 +17313,7 @@ GameObject:
   - component: {fileID: 591281984166501464}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16723,7 +17443,7 @@ GameObject:
   - component: {fileID: 842432019269274148}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopRight
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16853,7 +17573,7 @@ GameObject:
   - component: {fileID: 1219990927697567890}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16983,7 +17703,7 @@ GameObject:
   - component: {fileID: 5442936047082038266}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17113,7 +17833,7 @@ GameObject:
   - component: {fileID: 8620766623365977868}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17243,7 +17963,7 @@ GameObject:
   - component: {fileID: 2131734627762489313}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17373,7 +18093,7 @@ GameObject:
   - component: {fileID: 4373278908289259692}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17503,7 +18223,7 @@ GameObject:
   - component: {fileID: 1520171097073405869}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17633,7 +18353,7 @@ GameObject:
   - component: {fileID: 7798673156278633098}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17763,7 +18483,7 @@ GameObject:
   - component: {fileID: 8668907531659025407}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17893,7 +18613,7 @@ GameObject:
   - component: {fileID: 3079889918086009240}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18023,7 +18743,7 @@ GameObject:
   - component: {fileID: 2418375777637212593}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18083,7 +18803,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18153,7 +18873,7 @@ GameObject:
   - component: {fileID: 2271981763143113178}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18283,7 +19003,7 @@ GameObject:
   - component: {fileID: 3681754861097323365}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18413,7 +19133,7 @@ GameObject:
   - component: {fileID: 5559103160118493500}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18543,7 +19263,7 @@ GameObject:
   - component: {fileID: 5032493079749156709}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18603,7 +19323,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18673,7 +19393,7 @@ GameObject:
   - component: {fileID: 7205550691700942530}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18900,7 +19620,7 @@ GameObject:
   - component: {fileID: 7485392063662245843}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19030,7 +19750,7 @@ GameObject:
   - component: {fileID: 2259963649568804149}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19147,38 +19867,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!1 &5352091850788136140
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6103590917724050517}
-  m_Layer: 0
-  m_Name: Sides
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6103590917724050517
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5352091850788136140}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8810976358385096306}
-  m_Father: {fileID: 490325552067418398}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5429841572659735589
 GameObject:
   m_ObjectHideFlags: 0
@@ -19192,7 +19880,7 @@ GameObject:
   - component: {fileID: 394754170437458435}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19322,7 +20010,7 @@ GameObject:
   - component: {fileID: 4805245109121773164}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19382,7 +20070,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19452,7 +20140,7 @@ GameObject:
   - component: {fileID: 2538591333080353558}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19631,7 +20319,7 @@ GameObject:
   - component: {fileID: 2121346607404584045}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19761,7 +20449,7 @@ GameObject:
   - component: {fileID: 7262962468181161484}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19821,7 +20509,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19891,7 +20579,7 @@ GameObject:
   - component: {fileID: 882652391185230175}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20021,7 +20709,7 @@ GameObject:
   - component: {fileID: 2704290351817432145}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20249,7 +20937,7 @@ GameObject:
   - component: {fileID: 2677877949506172380}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20379,7 +21067,7 @@ GameObject:
   - component: {fileID: 1289511910206706347}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20509,7 +21197,7 @@ GameObject:
   - component: {fileID: 3128492477619742293}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20639,7 +21327,7 @@ GameObject:
   - component: {fileID: 3431936437937103770}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20756,6 +21444,136 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &5689675974194513750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2864277372054055929}
+  - component: {fileID: 4881050164497009813}
+  - component: {fileID: 6703988315634860046}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform4_Right (2)
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2864277372054055929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5689675974194513750}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -25.85, y: -1.99, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6101081263489606230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4881050164497009813
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5689675974194513750}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 0d6b36d4473a38e47be94bec2e217cda, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &6703988315634860046
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5689675974194513750}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &5740316994491015750
 GameObject:
   m_ObjectHideFlags: 0
@@ -20818,7 +21636,7 @@ GameObject:
   - component: {fileID: 1596803980262645024}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20948,7 +21766,7 @@ GameObject:
   - component: {fileID: 2887830215538839132}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21078,7 +21896,7 @@ GameObject:
   - component: {fileID: 4095892741622625152}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21138,7 +21956,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21208,7 +22026,7 @@ GameObject:
   - component: {fileID: 2183420015346620966}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21338,7 +22156,7 @@ GameObject:
   - component: {fileID: 7958870936609193787}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21468,7 +22286,7 @@ GameObject:
   - component: {fileID: 7537819508638389142}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21598,7 +22416,7 @@ GameObject:
   - component: {fileID: 1716811644953636424}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21728,7 +22546,7 @@ GameObject:
   - component: {fileID: 96376091640905829}
   m_Layer: 10
   m_Name: Cave_Day_Platform7_Middle
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21746,7 +22564,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8810976358385096306}
+  m_Father: {fileID: 490325552067418398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &53000321107648029
 SpriteRenderer:
@@ -21858,7 +22676,7 @@ GameObject:
   - component: {fileID: 8985823770994732766}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21988,7 +22806,7 @@ GameObject:
   - component: {fileID: 1336785687059292197}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22115,7 +22933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3711949813163165446}
   m_Layer: 0
-  m_Name: Sides
+  m_Name: SidesPlats_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22129,14 +22947,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6038304722518146280}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7503252200986619444}
   - {fileID: 707279819932845119}
-  m_Father: {fileID: 2904988743979166103}
+  m_Father: {fileID: 7877049441976956886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6055945006975090135
 GameObject:
@@ -22151,7 +22969,7 @@ GameObject:
   - component: {fileID: 6917444123606894451}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22281,7 +23099,7 @@ GameObject:
   - component: {fileID: 278937651072925694}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22411,7 +23229,7 @@ GameObject:
   - component: {fileID: 2137797074199950325}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22471,7 +23289,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22541,7 +23359,7 @@ GameObject:
   - component: {fileID: 3091323889020455588}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22671,7 +23489,7 @@ GameObject:
   - component: {fileID: 102477597821967630}
   m_Layer: 9
   m_Name: Stage1 ALL Grounds ( Pivot )
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22689,7 +23507,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8881707423314978401}
+  - {fileID: 490325552067418398}
+  - {fileID: 3711949813163165446}
+  - {fileID: 5065216922283806135}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &4232000930374198460
@@ -22756,6 +23576,86 @@ CompositeCollider2D:
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
+  - m_Collider: {fileID: 0}
+    m_ColliderPaths:
+    - - X: 477449984
+        Y: -72650000
+      - X: 432449984
+        Y: -72650000
+      - X: 432449984
+        Y: -117649992
+      - X: 477449984
+        Y: -117649992
+  - m_Collider: {fileID: 3074776487076152158}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 271500000
+      - X: -466537216
+        Y: 271500000
+      - X: -466537216
+        Y: 226500000
+      - X: -434164320
+        Y: 226500000
+  - m_Collider: {fileID: 96376091640905829}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 226500032
+      - X: -466537216
+        Y: 226500032
+      - X: -466537216
+        Y: 181500032
+      - X: -434164320
+        Y: 181500032
+  - m_Collider: {fileID: 513601974170710735}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 181500032
+      - X: -466537216
+        Y: 181500032
+      - X: -466537216
+        Y: 136500032
+      - X: -434164320
+        Y: 136500032
+  - m_Collider: {fileID: 588337907719520445}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 136500032
+      - X: -466537216
+        Y: 136500032
+      - X: -466537216
+        Y: 91500032
+      - X: -434164320
+        Y: 91500032
+  - m_Collider: {fileID: 4563302924453274362}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 91500032
+      - X: -466537216
+        Y: 91500032
+      - X: -466537216
+        Y: 46500036
+      - X: -434164320
+        Y: 46500036
+  - m_Collider: {fileID: 5722880527748391420}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 46500036
+      - X: -466537216
+        Y: 46500036
+      - X: -466537216
+        Y: 1500034
+      - X: -434164320
+        Y: 1500034
+  - m_Collider: {fileID: 5432539704495171504}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 1500034
+      - X: -466537216
+        Y: 1500034
+      - X: -466537216
+        Y: -43499964
+      - X: -434164320
+        Y: -43499964
   - m_Collider: {fileID: 7923910815282634145}
     m_ColliderPaths:
     - - X: -422550016
@@ -22787,6 +23687,16 @@ CompositeCollider2D:
       - X: 387449984
         Y: -117649992
   - m_Collider: {fileID: 842432019269274148}
+    m_ColliderPaths:
+    - - X: 387450016
+        Y: -27649998
+      - X: 342450016
+        Y: -27649998
+      - X: 342450016
+        Y: -72650000
+      - X: 387450016
+        Y: -72650000
+  - m_Collider: {fileID: 5590469935065674361}
     m_ColliderPaths:
     - - X: 387450016
         Y: -27649998
@@ -25223,13 +26133,19 @@ CompositeCollider2D:
       - {x: 56.745007, y: -20.76497}
       - {x: 56.744972, y: -16.265}
       - {x: 47.745, y: -16.26497}
-      - {x: 47.74497, y: -11.764999}
+      - {x: 47.74497, y: -7.265}
+      - {x: 43.245, y: -7.26503}
+      - {x: 43.24497, y: -11.764999}
       - {x: 38.745, y: -11.76497}
       - {x: 38.744972, y: -2.7649999}
       - {x: 34.245003, y: -2.7650292}
       - {x: 34.244972, y: -2.795}
       - {x: -42.255, y: -2.7949708}
       - {x: -42.25503, y: -2.7649999}
+      - {x: -43.41643, y: -2.7649705}
+      - {x: -43.416462, y: 27.15}
+      - {x: -46.65372, y: 27.149971}
+      - {x: -46.65375, y: -2.7649999}
       - {x: -46.755, y: -2.7650292}
       - {x: -46.754974, y: -11.764999}
       - {x: -42.255005, y: -11.765029}
@@ -25251,7 +26167,7 @@ GameObject:
   - component: {fileID: 8081801220701781852}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25381,7 +26297,7 @@ GameObject:
   - component: {fileID: 8201180498092749219}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25511,7 +26427,7 @@ GameObject:
   - component: {fileID: 6952952996701165043}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25571,7 +26487,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -25641,7 +26557,7 @@ GameObject:
   - component: {fileID: 4760135721523975821}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25771,7 +26687,7 @@ GameObject:
   - component: {fileID: 9129545756724760106}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25831,7 +26747,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -25901,7 +26817,7 @@ GameObject:
   - component: {fileID: 8715988284695136438}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26031,7 +26947,7 @@ GameObject:
   - component: {fileID: 5707482942006525704}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26161,7 +27077,7 @@ GameObject:
   - component: {fileID: 7510396903765756244}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26291,7 +27207,7 @@ GameObject:
   - component: {fileID: 3357825300674524933}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26421,7 +27337,7 @@ GameObject:
   - component: {fileID: 2788883666638488473}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26481,7 +27397,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0fd95224f8286d04a9deb5cf1cc008f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -26538,39 +27454,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!1 &6831014975884502544
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5665202595779506338}
-  m_Layer: 0
-  m_Name: Platforms
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5665202595779506338
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6831014975884502544}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2904988743979166103}
-  - {fileID: 490325552067418398}
-  m_Father: {fileID: 8881707423314978401}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6834907496059324943
 GameObject:
   m_ObjectHideFlags: 0
@@ -26584,7 +27467,7 @@ GameObject:
   - component: {fileID: 8619399782197577905}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26714,7 +27597,7 @@ GameObject:
   - component: {fileID: 2262115589120367514}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26844,7 +27727,7 @@ GameObject:
   - component: {fileID: 4903789137429450512}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26904,7 +27787,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0fd95224f8286d04a9deb5cf1cc008f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27023,7 +27906,7 @@ GameObject:
   - component: {fileID: 5424043204557147372}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27153,7 +28036,7 @@ GameObject:
   - component: {fileID: 4533391933273102405}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27283,7 +28166,7 @@ GameObject:
   - component: {fileID: 7904267162694451126}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27413,7 +28296,7 @@ GameObject:
   - component: {fileID: 3749539007691441599}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27543,7 +28426,7 @@ GameObject:
   - component: {fileID: 3762069923818157049}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27603,7 +28486,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27673,7 +28556,7 @@ GameObject:
   - component: {fileID: 4410908338528300649}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27803,7 +28686,7 @@ GameObject:
   - component: {fileID: 7817624983719718525}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27863,7 +28746,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27920,6 +28803,136 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.49}
   m_EdgeRadius: 0
+--- !u!1 &7220615820084725710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4795160140207326591}
+  - component: {fileID: 2081774674117086828}
+  - component: {fileID: 5590469935065674361}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform1_TopRight (1)
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4795160140207326591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7220615820084725710}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 36.510002, y: -5, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 707279819932845119}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2081774674117086828
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7220615820084725710}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 612b29cba8c584940bc53149c095aa02, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &5590469935065674361
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7220615820084725710}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: -0.005, y: -0.005}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &7308191328348068678
 GameObject:
   m_ObjectHideFlags: 0
@@ -27933,7 +28946,7 @@ GameObject:
   - component: {fileID: 5092161941585894590}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28063,7 +29076,7 @@ GameObject:
   - component: {fileID: 7460999133661077101}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28193,7 +29206,7 @@ GameObject:
   - component: {fileID: 2044931269937838680}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28253,7 +29266,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -28323,7 +29336,7 @@ GameObject:
   - component: {fileID: 1270408014955981395}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28453,7 +29466,7 @@ GameObject:
   - component: {fileID: 8639736541892837245}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28580,7 +29593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5065216922283806135}
   m_Layer: 0
-  m_Name: Middles
+  m_Name: MiddlePlats_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28594,14 +29607,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7456227799726335351}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4236107732427596452}
   - {fileID: 8969922484936886481}
-  m_Father: {fileID: 2904988743979166103}
+  m_Father: {fileID: 7877049441976956886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7528419450297570053
 GameObject:
@@ -28616,7 +29629,7 @@ GameObject:
   - component: {fileID: 5845473390106874340}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28746,7 +29759,7 @@ GameObject:
   - component: {fileID: 5136633395476007749}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28876,7 +29889,7 @@ GameObject:
   - component: {fileID: 8117506125200980890}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28936,7 +29949,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -29006,7 +30019,7 @@ GameObject:
   - component: {fileID: 6398014083284366993}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29136,7 +30149,7 @@ GameObject:
   - component: {fileID: 5663276141885319812}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29266,7 +30279,7 @@ GameObject:
   - component: {fileID: 6223036689287412650}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29396,7 +30409,7 @@ GameObject:
   - component: {fileID: 3997420133839677307}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29526,7 +30539,7 @@ GameObject:
   - component: {fileID: 96635904743262622}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_BottomLeft
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29586,7 +30599,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 611218cca45dfa54e96aa6d0b37294b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -29656,7 +30669,7 @@ GameObject:
   - component: {fileID: 3527426795296185681}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleRight
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29786,7 +30799,7 @@ GameObject:
   - component: {fileID: 702160037820555650}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29916,7 +30929,7 @@ GameObject:
   - component: {fileID: 2587047513868322895}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30046,7 +31059,7 @@ GameObject:
   - component: {fileID: 7554358561670170888}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30106,7 +31119,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -30176,7 +31189,7 @@ GameObject:
   - component: {fileID: 3294672239641704152}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30306,7 +31319,7 @@ GameObject:
   - component: {fileID: 5258787221446158696}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30436,7 +31449,7 @@ GameObject:
   - component: {fileID: 1244089482516953122}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30566,7 +31579,7 @@ GameObject:
   - component: {fileID: 1745483990047686636}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30683,6 +31696,136 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &7926575980726000928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8297788157628115550}
+  - component: {fileID: 5540318267757004477}
+  - component: {fileID: 1089441499216307809}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform4_Left (1)
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8297788157628115550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7926575980726000928}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -31.85, y: -0.03999996, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6101081263489606230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5540318267757004477
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7926575980726000928}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 69b60a403df0bbf41b4c2df3617e9312, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &1089441499216307809
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7926575980726000928}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &7969545744912355797
 GameObject:
   m_ObjectHideFlags: 0
@@ -30696,7 +31839,7 @@ GameObject:
   - component: {fileID: 4563302924453274362}
   m_Layer: 10
   m_Name: Cave_Day_Platform7_Middle (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30714,7 +31857,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8810976358385096306}
+  m_Father: {fileID: 490325552067418398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5119394291424508022
 SpriteRenderer:
@@ -30826,7 +31969,7 @@ GameObject:
   - component: {fileID: 2322104435038689483}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30956,7 +32099,7 @@ GameObject:
   - component: {fileID: 5251755515911875134}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31135,7 +32278,7 @@ GameObject:
   - component: {fileID: 938417354908066116}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31261,8 +32404,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 490325552067418398}
-  m_Layer: 0
-  m_Name: Wall_1
+  m_Layer: 10
+  m_Name: SideWall_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31276,13 +32419,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8032325075415559695}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6103590917724050517}
-  m_Father: {fileID: 5665202595779506338}
+  - {fileID: 1807700422735300860}
+  - {fileID: 1942753968148003937}
+  - {fileID: 2809204265090881090}
+  - {fileID: 811921070612655963}
+  - {fileID: 2193996004471975540}
+  - {fileID: 7615933862051112404}
+  - {fileID: 8677321294566677935}
+  m_Father: {fileID: 7877049441976956886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8070060699889907948
 GameObject:
@@ -31297,7 +32446,7 @@ GameObject:
   - component: {fileID: 7697972135296086102}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31427,7 +32576,7 @@ GameObject:
   - component: {fileID: 2296223430442914046}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31557,7 +32706,7 @@ GameObject:
   - component: {fileID: 7321793914629829525}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31687,7 +32836,7 @@ GameObject:
   - component: {fileID: 2917222317827695461}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31747,7 +32896,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0fd95224f8286d04a9deb5cf1cc008f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -31817,7 +32966,7 @@ GameObject:
   - component: {fileID: 7650031922988834923}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31947,7 +33096,7 @@ GameObject:
   - component: {fileID: 2740258641066642789}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32007,7 +33156,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -32077,7 +33226,7 @@ GameObject:
   - component: {fileID: 3064725809333279443}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32207,7 +33356,7 @@ GameObject:
   - component: {fileID: 614920704589624856}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32337,7 +33486,7 @@ GameObject:
   - component: {fileID: 7433078474024409857}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32467,7 +33616,7 @@ GameObject:
   - component: {fileID: 5477925785130286589}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32597,7 +33746,7 @@ GameObject:
   - component: {fileID: 1855927564126213231}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32714,6 +33863,136 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &8432164859385993725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6362552603776285998}
+  - component: {fileID: 6449431737355281666}
+  - component: {fileID: 3647597490756740753}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform4_Right (1)
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6362552603776285998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8432164859385993725}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -25.85, y: -0.04000005, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6101081263489606230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6449431737355281666
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8432164859385993725}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 0d6b36d4473a38e47be94bec2e217cda, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &3647597490756740753
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8432164859385993725}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &8439221107227452560
 GameObject:
   m_ObjectHideFlags: 0
@@ -32727,7 +34006,7 @@ GameObject:
   - component: {fileID: 5688491430772430301}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32857,7 +34136,7 @@ GameObject:
   - component: {fileID: 880264684196102108}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32974,39 +34253,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!1 &8495743028156924239
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2904988743979166103}
-  m_Layer: 0
-  m_Name: Plat_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2904988743979166103
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8495743028156924239}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3711949813163165446}
-  - {fileID: 5065216922283806135}
-  m_Father: {fileID: 5665202595779506338}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8553748336158563499
 GameObject:
   m_ObjectHideFlags: 0
@@ -33020,7 +34266,7 @@ GameObject:
   - component: {fileID: 3643968698537313352}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33150,7 +34396,7 @@ GameObject:
   - component: {fileID: 3535283096525852432}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33280,7 +34526,7 @@ GameObject:
   - component: {fileID: 94282647077663180}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33410,7 +34656,7 @@ GameObject:
   - component: {fileID: 6034323358786575915}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33540,7 +34786,7 @@ GameObject:
   - component: {fileID: 7251858460092904936}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33719,7 +34965,7 @@ GameObject:
   - component: {fileID: 4590019528040961605}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33779,7 +35025,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -33849,7 +35095,7 @@ GameObject:
   - component: {fileID: 3513176018288671781}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33909,7 +35155,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0fd95224f8286d04a9deb5cf1cc008f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -33979,7 +35225,7 @@ GameObject:
   - component: {fileID: 9146729611774150390}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34109,7 +35355,7 @@ GameObject:
   - component: {fileID: 1926842307326293752}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34239,7 +35485,7 @@ GameObject:
   - component: {fileID: 6299813442957387670}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34369,7 +35615,7 @@ GameObject:
   - component: {fileID: 5040095160485218103}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34499,7 +35745,7 @@ GameObject:
   - component: {fileID: 778088943806667448}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34677,7 +35923,7 @@ GameObject:
   - component: {fileID: 2840420778263518776}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34807,7 +36053,7 @@ GameObject:
   - component: {fileID: 3074776487076152158}
   m_Layer: 10
   m_Name: Cave_Day_Platform7_Top
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34825,7 +36071,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8810976358385096306}
+  m_Father: {fileID: 490325552067418398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3775470085187837565
 SpriteRenderer:
@@ -34937,7 +36183,7 @@ GameObject:
   - component: {fileID: 7909868271291330341}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35067,7 +36313,7 @@ GameObject:
   - component: {fileID: 8134116848345274696}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35127,7 +36373,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35197,7 +36443,7 @@ GameObject:
   - component: {fileID: 518244471553119783}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35327,7 +36573,7 @@ GameObject:
   - component: {fileID: 4382532915302884391}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35457,7 +36703,7 @@ GameObject:
   - component: {fileID: 9217756071943870938}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35587,7 +36833,7 @@ GameObject:
   - component: {fileID: 3224153744651814270}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35717,7 +36963,7 @@ GameObject:
   - component: {fileID: 3772610573168789998}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_TopMiddle2 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35777,7 +37023,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0c110d0ae1f2f2644b4e0935f003a789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35834,190 +37080,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.49}
   m_EdgeRadius: 0
---- !u!1 &9031726887184499153
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8810976358385096306}
-  - component: {fileID: 92696960067911050}
-  - component: {fileID: 8434386391599833549}
-  m_Layer: 0
-  m_Name: Side (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8810976358385096306
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9031726887184499153}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1807700422735300860}
-  - {fileID: 1942753968148003937}
-  - {fileID: 2809204265090881090}
-  - {fileID: 811921070612655963}
-  - {fileID: 2193996004471975540}
-  - {fileID: 7615933862051112404}
-  - {fileID: 8677321294566677935}
-  m_Father: {fileID: 6103590917724050517}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &92696960067911050
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9031726887184499153}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!66 &8434386391599833549
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9031726887184499153}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 3074776487076152158}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 271500000
-      - X: -466537216
-        Y: 271500000
-      - X: -466537216
-        Y: 226500000
-      - X: -434164320
-        Y: 226500000
-  - m_Collider: {fileID: 96376091640905829}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 226500032
-      - X: -466537216
-        Y: 226500032
-      - X: -466537216
-        Y: 181500032
-      - X: -434164320
-        Y: 181500032
-  - m_Collider: {fileID: 513601974170710735}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 181500032
-      - X: -466537216
-        Y: 181500032
-      - X: -466537216
-        Y: 136500032
-      - X: -434164320
-        Y: 136500032
-  - m_Collider: {fileID: 588337907719520445}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 136500032
-      - X: -466537216
-        Y: 136500032
-      - X: -466537216
-        Y: 91500032
-      - X: -434164320
-        Y: 91500032
-  - m_Collider: {fileID: 4563302924453274362}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 91500032
-      - X: -466537216
-        Y: 91500032
-      - X: -466537216
-        Y: 46500036
-      - X: -434164320
-        Y: 46500036
-  - m_Collider: {fileID: 5722880527748391420}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 46500036
-      - X: -466537216
-        Y: 46500036
-      - X: -466537216
-        Y: 1500034
-      - X: -434164320
-        Y: 1500034
-  - m_Collider: {fileID: 5432539704495171504}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 1500034
-      - X: -466537216
-        Y: 1500034
-      - X: -466537216
-        Y: -43499964
-      - X: -434164320
-        Y: -43499964
-  m_CompositePaths:
-    m_Paths:
-    - - {x: -43.416462, y: -4.3499966}
-      - {x: -43.416462, y: 27.15}
-      - {x: -46.65372, y: 27.149971}
-      - {x: -46.653694, y: -4.3499966}
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
-  m_UseDelaunayMesh: 0
-  m_CompositeGameObject: {fileID: 9031726887184499153}
 --- !u!1 &9062845519553414763
 GameObject:
   m_ObjectHideFlags: 0
@@ -36031,7 +37093,7 @@ GameObject:
   - component: {fileID: 7104341881660335754}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36161,7 +37223,7 @@ GameObject:
   - component: {fileID: 5622973457738764860}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36291,7 +37353,7 @@ GameObject:
   - component: {fileID: 6244426763290044529}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36408,6 +37470,136 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!1 &9141854138326022338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2301721258929594288}
+  - component: {fileID: 4015524503932891423}
+  - component: {fileID: 5474681160142310254}
+  m_Layer: 9
+  m_Name: Forest_Day_Platform4_Middle (2)
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2301721258929594288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9141854138326022338}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.85, y: -1.99, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6101081263489606230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4015524503932891423
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9141854138326022338}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: bb9ef88a8f130424b869eda4eafa0d41, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.5, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &5474681160142310254
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9141854138326022338}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &9168713230791010998
 GameObject:
   m_ObjectHideFlags: 0
@@ -36421,7 +37613,7 @@ GameObject:
   - component: {fileID: 6837236145020331670}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36551,7 +37743,7 @@ GameObject:
   - component: {fileID: 7301972296078906614}
   m_Layer: 9
   m_Name: Forest_Day_Platform1_MiddleMiddle_NoBones (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

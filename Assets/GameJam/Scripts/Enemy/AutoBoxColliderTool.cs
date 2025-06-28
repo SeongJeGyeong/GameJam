@@ -43,7 +43,7 @@ public class AutoBoxColliderTool : EditorWindow
         GUILayout.Label("Auto Collider Generator", EditorStyles.boldLabel);
 
         selectedColliderType = (ColliderType)EditorGUILayout.EnumPopup("Collider Type", selectedColliderType);
-        useComposite = EditorGUILayout.Toggle("Use Composite Collider", useComposite);
+        useComposite = EditorGUILayout.Toggle("Used By Composite", useComposite);
 
         EditorGUILayout.Space();
 
@@ -132,27 +132,6 @@ public class AutoBoxColliderTool : EditorWindow
             return;
         }
 
-        Transform commonParent = cachedSpriteRenderers[0].transform.parent;
-        if (useComposite)
-        {
-            foreach (var sr in cachedSpriteRenderers)
-            {
-                if (sr.transform.parent != commonParent)
-                {
-                    EditorUtility.DisplayDialog("Error", "To use CompositeCollider2D, all SpriteRenderers must share the same parent.", "OK");
-                    return;
-                }
-            }
-
-            Rigidbody2D rb = commonParent.GetComponent<Rigidbody2D>();
-            if (!rb)
-                rb = Undo.AddComponent<Rigidbody2D>(commonParent.gameObject);
-            rb.bodyType = RigidbodyType2D.Static;
-
-            if (!commonParent.GetComponent<CompositeCollider2D>())
-                Undo.AddComponent<CompositeCollider2D>(commonParent.gameObject);
-        }
-
         int processed = 0;
         foreach (var sr in cachedSpriteRenderers)
         {
@@ -166,8 +145,7 @@ public class AutoBoxColliderTool : EditorWindow
                 BoxCollider2D box = go.GetComponent<BoxCollider2D>();
                 if (!box)
                     box = Undo.AddComponent<BoxCollider2D>(go);
-                if (useComposite)
-                    box.usedByComposite = true;
+                box.usedByComposite = useComposite;
                 if (setIsTrigger)
                     box.isTrigger = isTriggerValue;
                 collider = box;
@@ -177,8 +155,7 @@ public class AutoBoxColliderTool : EditorWindow
                 PolygonCollider2D poly = go.GetComponent<PolygonCollider2D>();
                 if (!poly)
                     poly = Undo.AddComponent<PolygonCollider2D>(go);
-                if (useComposite)
-                    poly.usedByComposite = true;
+                poly.usedByComposite = useComposite;
                 if (setIsTrigger)
                     poly.isTrigger = isTriggerValue;
                 collider = poly;

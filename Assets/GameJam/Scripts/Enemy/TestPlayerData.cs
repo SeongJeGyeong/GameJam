@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class TestPlayerData : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static TestPlayerData Instance // ΩÃ±€≈Ê
     {
-        
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<TestPlayerData>();
+                if (instance == null)
+                {
+                    GameObject instanceContainter = new GameObject("TestPlayerData");
+                    instance = instanceContainter.AddComponent<TestPlayerData>();
+                }
+            }
+            return instance;
+        }
     }
+    private static TestPlayerData instance;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject Player;
+
 }
+
