@@ -13,30 +13,25 @@ public class PlayerAnimationController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-<<<<<<< Updated upstream:Assets/Player/PlayerAnimationController.cs
-        
-=======
-
->>>>>>> Stashed changes:Assets/GameJam/Scripts/Player/PlayerAnimationController.cs
     }
 
     // Update is called once per frame
     void Update()
     {
-<<<<<<< Updated upstream:Assets/Player/PlayerAnimationController.cs
-        
-=======
-
->>>>>>> Stashed changes:Assets/GameJam/Scripts/Player/PlayerAnimationController.cs
     }
 
     private void FixedUpdate()
     {
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        if (animator.GetBool("IsGround") && stateInfo.IsName("Jump") && stateInfo.normalizedTime >= 1.0f)
+        if (stateInfo.IsName("Jump") && animator.GetBool("IsGround") && stateInfo.normalizedTime >= 1.0f)
         {
             OnStartJump?.Invoke();
             HandleFall();
+        }
+        else if(stateInfo.IsName("Attack") && stateInfo.normalizedTime >= 1.0f)
+        {
+            if (stateInfo.normalizedTime >= 1.0f)
+            animator.SetBool("IsAttack", false);
         }
     }
 
@@ -69,8 +64,9 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetBool("IsGround", true);
         animator.SetBool("IsJump", false);
     }
-<<<<<<< Updated upstream:Assets/Player/PlayerAnimationController.cs
+
+    public void HandleAttack()
+    {
+        animator.SetBool("IsAttack", true);
+    }
 }
-=======
-}
->>>>>>> Stashed changes:Assets/GameJam/Scripts/Player/PlayerAnimationController.cs

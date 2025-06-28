@@ -11,7 +11,7 @@ public class SpineAnimatorBehaviour : StateMachineBehaviour
 
     private SkeletonAnimation skeletonAnimation;
     private Spine.AnimationState spineAnimationState;
-    private Spine.TrackEntry trackEntry;
+    protected Spine.TrackEntry trackEntry;
     private void Awake()
     {
         if (motion != null)
@@ -26,7 +26,6 @@ public class SpineAnimatorBehaviour : StateMachineBehaviour
             skeletonAnimation = animator.GetComponentInChildren<SkeletonAnimation>();
             spineAnimationState = skeletonAnimation.state;
         }
-
         if (animationClip != null)
         {
             trackEntry = spineAnimationState.SetAnimation(layer, animationClip, stateInfo.loop);

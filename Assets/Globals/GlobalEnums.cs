@@ -1,14 +1,12 @@
 public static class GlobalEnums
 {
-    public enum EquipType
+    public enum ItemType
     {
         MELEE,
-        SHIELD,
+        //SHIELD,
         STAFF,
-        DUELISTOFFHAND,
+        //DUELISTOFFHAND,
         ARMOR,
-        HELMET,
-        ARM,
-        FEET
+        CONSUMPTION,
     }
 }

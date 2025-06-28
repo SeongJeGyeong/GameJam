@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private float moveInput;
     public float speed = 5.0f;
     public float jumpForce = 600.0f;
-    bool isGround = true;
+    public bool isGround = true;
     bool isMove = true;
 
     public event Action<float> OnMove;

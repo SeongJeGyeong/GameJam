@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
         playerAnimationController.OnStartJump += playerMovement.StartJump;
         OnFall += playerAnimationController.HandleFall;
         OnLand += playerAnimationController.HandleLand;
+        playerAttack.OnAttack += playerAnimationController.HandleAttack;
     }
 
     // Update is called once per frame
@@ -31,16 +32,26 @@ public class PlayerController : MonoBehaviour
     {
         playerMovement.SetMoveInput(Input.GetAxisRaw("Horizontal"));
         if(Input.GetKeyDown(KeyCode.Space)) playerMovement.ReadyJump();
-        if (Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
+        if(Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
+        if (Input.GetMouseButtonDown(0)) playerAttack.Attack();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if(collision.collider.tag == "Ground")
+        {
+            playerMovement.isGround = true;
+            OnLand?.Invoke();
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        
+        if (collision.collider.tag == "Ground")
+        {
+            playerMovement.isGround = false;
+            OnFall?.Invoke();
+        }
+
     }
 }
