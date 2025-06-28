@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &132995188577879192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312397874451475275}
+  - component: {fileID: 7903082797575363399}
+  m_Layer: 0
+  m_Name: ItemSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &312397874451475275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132995188577879192}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7903082797575363399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132995188577879192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e65efc05ab508e48a24ba39e7524620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MeleePrefabs:
+  - {fileID: 1392188766855769091, guid: 9b2b9f8b775bd0849bd705766477a1ed, type: 3}
+  - {fileID: 1423758509235954212, guid: 0475695da25ef7449851520a27cf7df6, type: 3}
+  - {fileID: 3378247168619348831, guid: 56de8030afcac244898e33698ffc0b9b, type: 3}
+  - {fileID: 5337696033109239413, guid: 1462f8d708a383f4bbb2aa3ed3bb864d, type: 3}
+  - {fileID: 2216706987233816198, guid: 97086ee98d3eed1488b6d358e2544302, type: 3}
+  StaffPrefabs:
+  - {fileID: 977053409800228666, guid: 6fab5214bf53ed84881ac2c103902542, type: 3}
+  - {fileID: 6019036780296583052, guid: adab815dcb6ffa84e951ecc997683372, type: 3}
+  - {fileID: 3680804406968773583, guid: 0e452b0cd9dc9ec45b50db23bb3eae38, type: 3}
+  EquipmentPrefabs:
+  - {fileID: 3039756841670477306, guid: b1e856d5e5c0cc44ea14227698095dbc, type: 3}
+  - {fileID: 7853549526988928012, guid: cc0cbe273b033cb49a8760c3adc3f1bb, type: 3}
+  - {fileID: 94071001934813257, guid: cdb67f5cc1a96974d9680ac19ab05d7b, type: 3}
+  - {fileID: 4735027507244733027, guid: ab00b4b28cace1845afb921ac014075a, type: 3}
+  - {fileID: 1596976259456811311, guid: fc2e6cd186288bc43b077abf1cdee2cf, type: 3}
+  ConsumptionPrefabs: []

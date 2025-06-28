@@ -5,8 +5,5 @@ using UnityEngine;
 public class Consumption : Item
 {
 
-    public override void Use()
-    {
 
-    }
 }
