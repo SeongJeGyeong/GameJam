@@ -13,9 +13,21 @@ public class AutoBoxColliderTool : EditorWindow
     private ColliderType selectedColliderType = ColliderType.Box;
     private bool useComposite = false;
 
-    // Order in Layer ฐüทร
+    // Order in Layer
     private bool setOrderInLayer = false;
     private int orderInLayerValue = 0;
+
+    // Layer
+    private bool setLayer = false;
+    private int layerIndex = 0;
+
+    // Tag
+    private bool setTag = false;
+    private string selectedTag = "Untagged";
+
+    // IsTrigger
+    private bool setIsTrigger = false;
+    private bool isTriggerValue = false;
 
     private List<SpriteRenderer> cachedSpriteRenderers = new List<SpriteRenderer>();
     private Vector2 scrollPosition;
@@ -39,6 +51,24 @@ public class AutoBoxColliderTool : EditorWindow
         if (setOrderInLayer)
         {
             orderInLayerValue = EditorGUILayout.IntField("Order in Layer Value", orderInLayerValue);
+        }
+
+        setLayer = EditorGUILayout.Toggle("Set Unity Layer", setLayer);
+        if (setLayer)
+        {
+            layerIndex = EditorGUILayout.LayerField("Layer", layerIndex);
+        }
+
+        setTag = EditorGUILayout.Toggle("Set Tag", setTag);
+        if (setTag)
+        {
+            selectedTag = EditorGUILayout.TagField("Tag", selectedTag);
+        }
+
+        setIsTrigger = EditorGUILayout.Toggle("Set Is Trigger", setIsTrigger);
+        if (setIsTrigger)
+        {
+            isTriggerValue = EditorGUILayout.Toggle("Is Trigger", isTriggerValue);
         }
 
         EditorGUILayout.Space();
@@ -128,24 +158,29 @@ public class AutoBoxColliderTool : EditorWindow
         {
             if (!sr || !sr.sprite) continue;
 
+            GameObject go = sr.gameObject;
             Component collider = null;
 
             if (selectedColliderType == ColliderType.Box)
             {
-                BoxCollider2D box = sr.GetComponent<BoxCollider2D>();
+                BoxCollider2D box = go.GetComponent<BoxCollider2D>();
                 if (!box)
-                    box = Undo.AddComponent<BoxCollider2D>(sr.gameObject);
+                    box = Undo.AddComponent<BoxCollider2D>(go);
                 if (useComposite)
                     box.usedByComposite = true;
+                if (setIsTrigger)
+                    box.isTrigger = isTriggerValue;
                 collider = box;
             }
             else if (selectedColliderType == ColliderType.Polygon)
             {
-                PolygonCollider2D poly = sr.GetComponent<PolygonCollider2D>();
+                PolygonCollider2D poly = go.GetComponent<PolygonCollider2D>();
                 if (!poly)
-                    poly = Undo.AddComponent<PolygonCollider2D>(sr.gameObject);
+                    poly = Undo.AddComponent<PolygonCollider2D>(go);
                 if (useComposite)
                     poly.usedByComposite = true;
+                if (setIsTrigger)
+                    poly.isTrigger = isTriggerValue;
                 collider = poly;
             }
 
@@ -154,6 +189,20 @@ public class AutoBoxColliderTool : EditorWindow
                 Undo.RecordObject(sr, "Set Order in Layer");
                 sr.sortingOrder = orderInLayerValue;
                 EditorUtility.SetDirty(sr);
+            }
+
+            if (setLayer)
+            {
+                Undo.RecordObject(go, "Set Layer");
+                go.layer = layerIndex;
+                EditorUtility.SetDirty(go);
+            }
+
+            if (setTag)
+            {
+                Undo.RecordObject(go, "Set Tag");
+                go.tag = selectedTag;
+                EditorUtility.SetDirty(go);
             }
 
             if (collider != null)

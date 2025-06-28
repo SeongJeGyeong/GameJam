@@ -35,37 +35,21 @@ public class Slime : Monster
             // 벽에 닿으면 방향 전환
             else if (isGroundBack)
             {
+                Debug.Log("슬라임 - 벽에 충돌");
                 MonsterFlip();
             }
         }
     }
-
-    void OnDrawGizmos()
-    {
-        if (wallCheck != null && wallCheck.Length >= 2)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(wallCheck[0].position, 0.01f); // isNoGroundFront 체크 위치
-
-            Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(wallCheck[1].position, 0.01f); // isGroundBack 체크 위치
-        }
-
-        // Raycast 방향 시각화
-        Gizmos.color = Color.blue;
-        Vector3 rayDir = -transform.localScale.x * transform.right;
-        Gizmos.DrawRay(transform.position, rayDir * 1f);
-    }
-
 
     protected new void OnTriggerEnter2D(Collider2D collision)
     {
         base.OnTriggerEnter2D(collision);
 
         // 벽 레이어와 충돌 시 방향 전환
-       
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+
+        if (collision.transform.CompareTag("Player"))
         {
+            Debug.Log("슬라임 - 플레이어와 충돌");
             MonsterFlip();
         }
     }
