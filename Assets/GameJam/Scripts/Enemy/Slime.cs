@@ -63,6 +63,7 @@ public class Slime : Monster
         base.OnTriggerEnter2D(collision);
 
         // 벽 레이어와 충돌 시 방향 전환
+       
         if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
         {
             MonsterFlip();
