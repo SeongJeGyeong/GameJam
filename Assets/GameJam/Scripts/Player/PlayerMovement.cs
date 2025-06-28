@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     public event Action<float> OnMove;
     public event Action OnJump;
+    public event Action OnHurted;
 
     // Start is called before the first frame update
     void Start()
@@ -57,5 +58,14 @@ public class PlayerMovement : MonoBehaviour
     public void SetIsMovable(bool Movable)
     {
         isMovable = Movable;
+    }
+
+    public void Knockback(Vector2 hittedPos)
+    {
+        isMovable = false;
+        int dir = transform.position.x - hittedPos.x > 0 ? 1 : -1;
+        playerRigid.velocity = Vector2.zero;
+        playerRigid.AddForce(new Vector2(dir, 1) * 5, ForceMode2D.Impulse);
+        OnHurted?.Invoke();
     }
 }

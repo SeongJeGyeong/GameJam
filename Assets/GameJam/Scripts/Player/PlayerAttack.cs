@@ -30,16 +30,18 @@ public class PlayerAttack : MonoBehaviour
     public void OnDamaging()
     {
         float flipDir = transform.localScale.x;
+        EquippedWeapon weapon = PlayerEquipment.GetEquipList().leftHand;
         Vector2 HitBoxPosition = new Vector2(transform.position.x + flipDir * 2, transform.position.y + 2);
-        Vector2 HitBoxSize = new Vector2(5, 5);
+        Vector2 HitBoxSize = weapon.hitBoxSize;
         Collider2D[] colliders = Physics2D.OverlapBoxAll(HitBoxPosition, HitBoxSize, 0f);
     }
 
     private void OnDrawGizmos()
     {
         float flipDir = transform.localScale.x;
+        EquippedWeapon weapon = PlayerEquipment.GetEquipList().leftHand;
         Vector2 HitBoxPosition = new Vector2(transform.position.x + flipDir * 2, transform.position.y + 2);
-        Vector2 HitBoxSize = new Vector2(5, 5);
+        Vector2 HitBoxSize = weapon.hitBoxSize;
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(HitBoxPosition, HitBoxSize);
