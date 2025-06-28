@@ -12,10 +12,11 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5.0f;
     public float jumpForce = 600.0f;
     public bool isGround = true;
-    bool isMove = true;
+    bool isMovable = true;
 
     public event Action<float> OnMove;
     public event Action OnJump;
+    public event Action OnHurted;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        if(isMove)
+        if(isMovable)
         {
             playerRigid.velocity = new Vector2(moveInput * speed, playerRigid.velocity.y);
             OnMove?.Invoke(moveInput);
@@ -44,13 +45,27 @@ public class PlayerMovement : MonoBehaviour
 
     public void ReadyJump()
     {
-        isMove = false;
+        isMovable = false;
         OnJump?.Invoke();
     }
 
     public void StartJump()
     {
         playerRigid.AddForce(transform.up * jumpForce);
-        isMove = true;
+        isMovable = true;
+    }
+
+    public void SetIsMovable(bool Movable)
+    {
+        isMovable = Movable;
+    }
+
+    public void Knockback(Vector2 hittedPos)
+    {
+        isMovable = false;
+        int dir = transform.position.x - hittedPos.x > 0 ? 1 : -1;
+        playerRigid.velocity = Vector2.zero;
+        playerRigid.AddForce(new Vector2(dir, 1) * 5, ForceMode2D.Impulse);
+        OnHurted?.Invoke();
     }
 }

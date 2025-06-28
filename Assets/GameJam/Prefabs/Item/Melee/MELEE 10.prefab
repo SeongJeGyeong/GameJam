@@ -100,12 +100,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88a8b989040595341956fa4f31c65be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 0
+  itemType: 1
   itemNumber: 10
   weaponType: 0
   attack: 1
   attackSpeed: 2
-  hitBoxSize: {x: 0, y: 0}
+  hitBoxSize: {x: 3.5, y: 3}
   durability: 10
 --- !u!50 &1275567904016809920
 Rigidbody2D:

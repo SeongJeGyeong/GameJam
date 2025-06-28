@@ -2,6 +2,7 @@ using Spine;
 using Spine.Unity;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using Unity.Burst.Intrinsics;
 using UnityEngine;
@@ -9,33 +10,45 @@ using UnityEngine;
 public class PlayerEquipper : MonoBehaviour
 {
     [SerializeField]
-    SkeletonAnimation skeletonAnimation;
-    [SerializeField]
     TextMeshProUGUI text;
     [SerializeField]
     PlayerEquipment playerEquipment;
     [SerializeField]
     ItemSpawner spawner;
 
-    GameObject triggeredItem;
+    List<GameObject> overlappedList;
     // Start is called before the first frame update
     void Start()
     {
-        
+        overlappedList = new List<GameObject>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       //Collider2D[] Overlapped = Physics2D.OverlapCapsuleAll(new Vector2(0, 1.6f), new Vector2(4, 3.8f), CapsuleDirection2D.Vertical, 0);
+       // foreach(Collider2D overlapObject in Overlapped)
+       // {
+       //     if (overlapObject.tag == "Item")
+       //     {
+       //         overlappedCheckList.Add(overlapObject.gameObject);
+       //     }
+       // }
+       // foreach(GameObject item in overlappedList)
+       // {
+       //     if(!overlappedCheckList.Contains(item))
+       //     {
+       //         overlappedList.Remove(item);
+       //     }
+       // }
     }
 
     public void Equip()
     {
-        if (triggeredItem == null) return;
+        if (overlappedList.Count() < 1) return;
 
-        Item item = triggeredItem.GetComponent<Item>();
-        if(item is Weapon)
+        Item item = overlappedList[overlappedList.Count()-1].GetComponent<Item>();
+        if (item is Weapon)
         {
             Weapon newWeapon = (Weapon)item;
             EquippedWeapon itemInfo = playerEquipment.GetEquippedWeapon();
@@ -60,7 +73,8 @@ public class PlayerEquipper : MonoBehaviour
             playerEquipment.SetArmorChange(in newArmor);
         }
 
-        Destroy(triggeredItem);
+        //overlappedList.RemoveAt(overlappedList.Count()-1);
+        Destroy(overlappedList[overlappedList.Count()-1]);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -68,7 +82,7 @@ public class PlayerEquipper : MonoBehaviour
         if(collision.tag == "Item")
         {
             text.text = "(E) Equip";
-            triggeredItem = collision.gameObject;
+            overlappedList.Add(collision.gameObject);
         }
 
     }
@@ -76,9 +90,12 @@ public class PlayerEquipper : MonoBehaviour
     {
         if (collision.tag == "Item")
         {
-            text.text = "";
-            triggeredItem = null;
+            overlappedList.Remove(collision.gameObject);
         }
 
+        if(overlappedList.Count() < 1)
+        {
+            text.text = "";
+        }
     }
 }
