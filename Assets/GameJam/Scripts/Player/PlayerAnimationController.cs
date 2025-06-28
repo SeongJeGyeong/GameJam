@@ -1,3 +1,4 @@
+using Spine.Unity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ public class PlayerAnimationController : MonoBehaviour
     Animator animator;
 
     public event Action OnStartJump;
+    public event Action<bool> OnMoveEnable;
 
     // Start is called before the first frame update
     void Start()
@@ -30,8 +32,8 @@ public class PlayerAnimationController : MonoBehaviour
         }
         else if(stateInfo.IsName("Attack") && stateInfo.normalizedTime >= 1.0f)
         {
-            if (stateInfo.normalizedTime >= 1.0f)
             animator.SetBool("IsAttack", false);
+            OnMoveEnable?.Invoke(true);
         }
     }
 
@@ -39,8 +41,8 @@ public class PlayerAnimationController : MonoBehaviour
     {
         if (input != 0)
         {
-            float FlipDir = (input > 0) ? 1f : -1f;
-            transform.localScale = new Vector3(FlipDir, 1, 1);
+            float flipDir = (input > 0) ? 1f : -1f;
+            transform.localScale = new Vector3(flipDir, 1, 1);
             animator.SetBool("IsMove", true);
         }
         else
@@ -65,8 +67,9 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetBool("IsJump", false);
     }
 
-    public void HandleAttack()
+    public void HandleAttack(int attackType)
     {
         animator.SetBool("IsAttack", true);
+        OnMoveEnable?.Invoke(false);
     }
 }

@@ -22,9 +22,10 @@ public class PlayerController : MonoBehaviour
         playerMovement.OnMove += playerAnimationController.HandleMove;
         playerMovement.OnJump += playerAnimationController.HandleReadyJump;
         playerAnimationController.OnStartJump += playerMovement.StartJump;
+        playerAnimationController.OnMoveEnable += playerMovement.SetIsMovable;
+        playerAttack.OnAttack += playerAnimationController.HandleAttack;
         OnFall += playerAnimationController.HandleFall;
         OnLand += playerAnimationController.HandleLand;
-        playerAttack.OnAttack += playerAnimationController.HandleAttack;
     }
 
     // Update is called once per frame
