@@ -538,8 +538,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRigid: {fileID: 820341813}
+<<<<<<< Updated upstream
   speed: 5
   jumpForce: 600
+=======
+  moveInput: 0
+  speed: 5
+  jumpForce: 600
+  isGround: 1
+  isMove: 1
+>>>>>>> Stashed changes
 --- !u!114 &820341817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,6 +560,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce458cfb5465744187a33b564362097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+  skeletonAnimation: {fileID: 0}
+  triggeredItem: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!114 &820341818
 MonoBehaviour:
   m_ObjectHideFlags: 0
