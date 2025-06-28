@@ -1,5 +1,6 @@
 using Spine;
 using Spine.Unity;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -34,6 +35,8 @@ public class PlayerEquipment : MonoBehaviour
 
     EquipList equipList;
 
+    public event Action<int> OnApplyAttackPower;
+    public event Action<int> OnApplyDurability;
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +69,7 @@ public class PlayerEquipment : MonoBehaviour
         equipList.leftHand.attackPower = weapon.GetAttackStat();
         equipList.leftHand.attackSpeed = weapon.attackSpeed;
         equipList.leftHand.hitBoxSize = weapon.hitBoxSize;
+        OnApplyAttackPower?.Invoke(equipList.leftHand.attackPower);
         ApplyEquipChange();
     }
 
@@ -73,6 +77,8 @@ public class PlayerEquipment : MonoBehaviour
     {
         equipList.armor.ID = equipment.GetItemNumber();
         equipList.armor.durability = equipment.durability;
+        OnApplyDurability?.Invoke(equipList.armor.durability);
+        ApplyEquipChange();
     }
 
     public void ApplyEquipChange()
@@ -128,5 +134,10 @@ public class PlayerEquipment : MonoBehaviour
     public EquippedArmor GetEquippedArmor()
     {
         return equipList.armor;
+    }
+
+    public void DecreaseDurability()
+    {
+
     }
 }

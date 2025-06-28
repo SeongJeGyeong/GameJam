@@ -34,6 +34,14 @@ public class PlayerAttack : MonoBehaviour
         Vector2 HitBoxPosition = new Vector2(transform.position.x + flipDir * 2, transform.position.y + 2);
         Vector2 HitBoxSize = weapon.hitBoxSize;
         Collider2D[] colliders = Physics2D.OverlapBoxAll(HitBoxPosition, HitBoxSize, 0f);
+        foreach(Collider2D collider in colliders)
+        {
+            if(collider.tag == "Monster")
+            {
+                Monster monster = collider.GetComponent<Monster>();
+                if(monster != null) monster.TakeDamage(weapon.attackPower);
+            }
+        }
     }
 
     private void OnDrawGizmos()

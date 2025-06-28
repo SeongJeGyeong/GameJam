@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1507394002365831371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2292344936617102168}
+  m_Layer: 6
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2292344936617102168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507394002365831371}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 264500927271487018}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4951937491529421916
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,6 +176,7 @@ GameObject:
   - component: {fileID: 8301359076288763520}
   - component: {fileID: 3984456804121514018}
   - component: {fileID: 123959701905604112}
+  - component: {fileID: 6505215433194436624}
   m_Layer: 6
   m_Name: Hero
   m_TagString: Untagged
@@ -166,6 +198,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4491120790201804852}
+  - {fileID: 2292344936617102168}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &9164789513740010723
@@ -267,6 +300,8 @@ MonoBehaviour:
   playerAnimationController: {fileID: 822604215876400516}
   playerAttack: {fileID: 8301359076288763520}
   playerEquipper: {fileID: 3984456804121514018}
+  playerEquipment: {fileID: 123959701905604112}
+  playerStatus: {fileID: 6505215433194436624}
 --- !u!114 &4744421772618703420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,3 +371,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 2004829218239592536}
+--- !u!114 &6505215433194436624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5009065039425267998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52c0fa8f69ce004b8988f4ebfe57891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

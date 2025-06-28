@@ -15,63 +15,47 @@ public class ItemSpawner : MonoBehaviour
 
     public void SpawnItem(Vector3 pos, GlobalEnums.ItemType type, int TypeNum, int durability)
     {
+        int Idx = 0;
         // TypeNum : Use Item.GetItemNumber.
-        switch(type)
+        switch (type)
         {
             case GlobalEnums.ItemType.MELEE:
-                int idx = 0;
                 switch (TypeNum)
                 {
-                    case 0: idx = 0; break;
-                    case 4: idx = 1; break;
-                    case 10: idx = 2; break;
-                    case 26: idx = 3; break;
-                    case 43: idx = 4; break;
+                    case 0: Idx = 0; break;
+                    case 4: Idx = 1; break;
+                    case 10: Idx = 2; break;
+                    case 26: Idx = 3; break;
+                    case 43: Idx = 4; break;
                 }
-                Weapon weapon = Instantiate(MeleePrefabs[idx], pos, Quaternion.identity).GetComponent<Weapon>();
-                weapon.durability = durability;
+                Weapon melee = Instantiate(MeleePrefabs[Idx], pos, Quaternion.identity).GetComponent<Weapon>();
+                melee.durability = durability;
                 break;
 
             case GlobalEnums.ItemType.STAFF:
 
                 switch (TypeNum)
                 {
-                    case 0:
-                        Instantiate(StaffPrefabs[0], pos, Quaternion.identity);
-                        break;
-                    case 9:
-                        Instantiate(StaffPrefabs[1], pos, Quaternion.identity);
-                        break;
-                    case 21:
-                        Instantiate(StaffPrefabs[2], pos, Quaternion.identity);
-                        break;
+                    case 0: Idx = 0; break;
+                    case 9: Idx = 1; break;
+                    case 21: Idx = 2; break;
                 }
+                Weapon staff = Instantiate(StaffPrefabs[Idx], pos, Quaternion.identity).GetComponent<Weapon>();
+                staff.durability = durability;
                 break;
 
             case GlobalEnums.ItemType.ARMOR:
                 switch (TypeNum)
                 {
-                    case 0:
-                        Instantiate(EquipmentPrefabs[0], pos, Quaternion.identity);
-                        break;
-                    case 4:
-                        Instantiate(EquipmentPrefabs[1], pos, Quaternion.identity);
-                        break;
-
-                    case 10:
-                        Instantiate(EquipmentPrefabs[2], pos, Quaternion.identity);
-                        break;
-
-                    case 26:
-                        Instantiate(EquipmentPrefabs[3], pos, Quaternion.identity);
-                        break;
-
-                    case 43:
-                        Instantiate(EquipmentPrefabs[4], pos, Quaternion.identity);
-                        break;
+                    case 0: Idx = 0; break;
+                    case 1: Idx = 1; break;
+                    case 5: Idx = 2; break;
+                    case 6: Idx = 3; break;
+                    case 30: Idx = 4; break;
                 }
+                Equipment armor = Instantiate(EquipmentPrefabs[Idx], pos, Quaternion.identity).GetComponent<Equipment>();
+                armor.durability = durability;
                 break;
-
         }
 
     }

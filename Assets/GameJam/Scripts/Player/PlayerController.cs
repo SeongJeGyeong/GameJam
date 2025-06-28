@@ -14,22 +14,21 @@ public class PlayerController : MonoBehaviour
     PlayerAttack playerAttack;
     [SerializeField]
     PlayerEquipper playerEquipper;
-
-    public event Action OnFall;
-    public event Action OnLand;
-    public event Action<Vector2> OnDamaged;
+    [SerializeField]
+    PlayerEquipment playerEquipment;
+    [SerializeField]
+    PlayerStatus playerStatus;
 
     void Start()
     {
         playerMovement.OnMove += playerAnimationController.HandleMove;
         playerMovement.OnJump += playerAnimationController.HandleReadyJump;
+        playerMovement.OnHurted += playerAnimationController.HandleDamaged;
         playerAnimationController.OnStartJump += playerMovement.StartJump;
         playerAnimationController.OnMoveEnable += playerMovement.SetIsMovable;
         playerAttack.OnAttack += playerAnimationController.HandleAttack;
-        OnFall += playerAnimationController.HandleFall;
-        OnLand += playerAnimationController.HandleLand;
-        OnDamaged += playerMovement.Knockback;
-        playerMovement.OnHurted += playerAnimationController.HandleDamaged;
+        playerEquipment.OnApplyAttackPower += playerStatus.SetAttackPower;
+        playerEquipment.OnApplyDurability += playerStatus.SetDurability;
     }
 
     // Update is called once per frame
@@ -46,7 +45,7 @@ public class PlayerController : MonoBehaviour
         if(collision.collider.tag == "Ground")
         {
             playerMovement.isGround = true;
-            OnLand?.Invoke();
+            playerAnimationController.HandleLand();
         }
     }
 
@@ -55,7 +54,7 @@ public class PlayerController : MonoBehaviour
         if (collision.collider.tag == "Ground")
         {
             playerMovement.isGround = false;
-            OnFall?.Invoke();
+            playerAnimationController.HandleFall();
         }
 
     }
@@ -72,8 +71,9 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.tag == "Monster")
         {
-            OnDamaged?.Invoke(new Vector2(collision.transform.position.x, collision.transform.position.y));
+            playerMovement.Knockback(new Vector2(collision.transform.position.x, collision.transform.position.y));
             gameObject.layer = 11;
+            playerStatus.ChangeDurability(-1);
         }
     }
 
