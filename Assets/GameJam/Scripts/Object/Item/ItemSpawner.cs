@@ -13,37 +13,26 @@ public class ItemSpawner : MonoBehaviour
     [SerializeField]
     private List<GameObject> ConsumptionPrefabs;
 
-    public void SpawnItem(Vector3 pos, SpawnType type, int TypeNum)
+    public void SpawnItem(Vector3 pos, GlobalEnums.ItemType type, int TypeNum, int durability)
     {
         // TypeNum : Use Item.GetItemNumber.
-
         switch(type)
         {
-            case SpawnType.Melee:
+            case GlobalEnums.ItemType.MELEE:
+                int idx = 0;
                 switch (TypeNum)
                 {
-                    case 0:
-                        Instantiate(MeleePrefabs[0], pos, Quaternion.identity);
-                        break;
-                    case 4:
-                        Instantiate(MeleePrefabs[1], pos, Quaternion.identity);
-                        break;
-
-                    case 10:
-                        Instantiate(MeleePrefabs[2], pos, Quaternion.identity);
-                        break;
-
-                    case 26:
-                        Instantiate(MeleePrefabs[3], pos, Quaternion.identity);
-                        break;
-
-                    case 43:
-                        Instantiate(MeleePrefabs[4], pos, Quaternion.identity);
-                        break;
+                    case 0: idx = 0; break;
+                    case 4: idx = 1; break;
+                    case 10: idx = 2; break;
+                    case 26: idx = 3; break;
+                    case 43: idx = 4; break;
                 }
+                Weapon weapon = Instantiate(MeleePrefabs[idx], pos, Quaternion.identity).GetComponent<Weapon>();
+                weapon.durability = durability;
                 break;
 
-            case SpawnType.Staff:
+            case GlobalEnums.ItemType.STAFF:
 
                 switch (TypeNum)
                 {
@@ -59,7 +48,7 @@ public class ItemSpawner : MonoBehaviour
                 }
                 break;
 
-            case SpawnType.Equipment:
+            case GlobalEnums.ItemType.ARMOR:
                 switch (TypeNum)
                 {
                     case 0:
@@ -88,9 +77,9 @@ public class ItemSpawner : MonoBehaviour
     }
 }
 
-public enum SpawnType
-{
-    Melee,
-    Staff,
-    Equipment
-}
+//public enum SpawnType
+//{
+//    Melee,
+//    Staff,
+//    Equipment
+//}

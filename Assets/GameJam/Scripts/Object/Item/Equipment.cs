@@ -4,7 +4,5 @@ using UnityEngine;
 
 public class Equipment : Item
 {
-    [SerializeField]
-    private int durability;
-
+    public int durability;
 }
