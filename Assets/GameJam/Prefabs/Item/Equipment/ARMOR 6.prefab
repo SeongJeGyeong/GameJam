@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6477694613295292997}
   - component: {fileID: 4951712138061288586}
   - component: {fileID: 4112572700372920633}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ARMOR 6
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

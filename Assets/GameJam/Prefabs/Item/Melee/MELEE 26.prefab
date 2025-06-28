@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6689556442129882923}
   - component: {fileID: 9089088667218010883}
   - component: {fileID: 8184645407285952572}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MELEE 26
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
