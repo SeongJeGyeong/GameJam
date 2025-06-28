@@ -16,6 +16,7 @@ public class ThornTrap : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             // Player.OnDamaged
+            Debug.Log("플레이어 피격");
         }
     }
 }
