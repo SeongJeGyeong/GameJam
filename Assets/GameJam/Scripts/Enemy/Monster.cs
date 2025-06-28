@@ -97,12 +97,12 @@ public class Monster : MonoBehaviour
     protected bool IsPlayerDir()
     {
         /*
-          
         if (transform.position.x < PlayerData.Instance.Player.transform.position.x ? MonsterDirRight : !MonsterDirRight)
         {
             return true;
         }
-        */
+         */
+
         return false;
 
     }

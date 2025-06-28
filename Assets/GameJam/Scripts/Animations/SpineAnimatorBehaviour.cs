@@ -32,4 +32,12 @@ public class SpineAnimatorBehaviour : StateMachineBehaviour
             trackEntry.TimeScale = timeScale;
         }
     }
+
+    //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    //{
+    //    if(stateInfo.IsName("Hurt"))
+    //    {
+    //        animator.SetBool("IsHurted", false);
+    //    }
+    //}
 }

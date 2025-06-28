@@ -37,8 +37,13 @@ public class PlayerEquipment : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        equipList = new EquipList();
+        equipList.leftHand.type = GlobalEnums.ItemType.EMPTY;
         equipList.leftHand.ID = -1;
+        equipList.leftHand.attackSpeed = 1;
         equipList.rightHand.ID = -1;
+        equipList.rightHand.hitBoxSize = new Vector2(2, 1);
+
         equipList.armor.ID = 0;
         ApplyEquipChange();
     }

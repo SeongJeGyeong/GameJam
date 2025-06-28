@@ -97,7 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88a8b989040595341956fa4f31c65be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 0
+  itemType: 2
   itemNumber: 9
   weaponType: 1
   attack: 0
+  attackSpeed: 0
+  hitBoxSize: {x: 0, y: 0}
+  durability: 0

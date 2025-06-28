@@ -1,3 +1,4 @@
+using Spine.Unity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -16,15 +17,19 @@ public class PlayerController : MonoBehaviour
 
     public event Action OnFall;
     public event Action OnLand;
+    public event Action<Vector2> OnDamaged;
 
     void Start()
     {
         playerMovement.OnMove += playerAnimationController.HandleMove;
         playerMovement.OnJump += playerAnimationController.HandleReadyJump;
         playerAnimationController.OnStartJump += playerMovement.StartJump;
+        playerAnimationController.OnMoveEnable += playerMovement.SetIsMovable;
+        playerAttack.OnAttack += playerAnimationController.HandleAttack;
         OnFall += playerAnimationController.HandleFall;
         OnLand += playerAnimationController.HandleLand;
-        playerAttack.OnAttack += playerAnimationController.HandleAttack;
+        OnDamaged += playerMovement.Knockback;
+        playerMovement.OnHurted += playerAnimationController.HandleDamaged;
     }
 
     // Update is called once per frame
@@ -43,6 +48,10 @@ public class PlayerController : MonoBehaviour
             playerMovement.isGround = true;
             OnLand?.Invoke();
         }
+        if(collision.collider.tag == "Monster")
+        {
+            OnDamaged?.Invoke(new Vector2(collision.transform.position.x, collision.transform.position.y));
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -55,3 +64,5 @@ public class PlayerController : MonoBehaviour
 
     }
 }
+
+
