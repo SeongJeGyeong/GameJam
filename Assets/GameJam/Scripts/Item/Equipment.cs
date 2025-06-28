@@ -4,11 +4,5 @@ using UnityEngine;
 
 public class Equipment : Item
 {
-    [SerializeField]
-    private int durability;
-
-    public override void Use()
-    {
-
-    }
+    public int durability;
 }
