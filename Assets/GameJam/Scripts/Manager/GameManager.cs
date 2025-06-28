@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 
     public void InitGame()
     {
-
+        
     }
 
     public void PauseGame()
@@ -46,18 +46,13 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void RestartGame()
-    {
-
-    }
-
     public void LoadLobbyScene()
     {
-
+        SceneManager.LoadScene("TitleScene");
     }
     public void LoadStageScene()
     {
-
+        SceneManager.LoadScene("Stage_01");
     }
-        
+
 }
