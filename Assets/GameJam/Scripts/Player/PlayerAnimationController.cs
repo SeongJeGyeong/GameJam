@@ -13,13 +13,21 @@ public class PlayerAnimationController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+<<<<<<< Updated upstream:Assets/Player/PlayerAnimationController.cs
         
+=======
+
+>>>>>>> Stashed changes:Assets/GameJam/Scripts/Player/PlayerAnimationController.cs
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< Updated upstream:Assets/Player/PlayerAnimationController.cs
         
+=======
+
+>>>>>>> Stashed changes:Assets/GameJam/Scripts/Player/PlayerAnimationController.cs
     }
 
     private void FixedUpdate()
@@ -34,7 +42,7 @@ public class PlayerAnimationController : MonoBehaviour
 
     public void HandleMove(float input)
     {
-        if(input != 0)
+        if (input != 0)
         {
             float FlipDir = (input > 0) ? 1f : -1f;
             transform.localScale = new Vector3(FlipDir, 1, 1);
@@ -61,4 +69,8 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetBool("IsGround", true);
         animator.SetBool("IsJump", false);
     }
+<<<<<<< Updated upstream:Assets/Player/PlayerAnimationController.cs
 }
+=======
+}
+>>>>>>> Stashed changes:Assets/GameJam/Scripts/Player/PlayerAnimationController.cs
