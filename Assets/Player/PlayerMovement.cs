@@ -23,12 +23,11 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         Move();
     }
-    
+
     public void SetMoveInput(float input)
     {
         moveInput = input;
