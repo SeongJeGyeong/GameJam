@@ -12,9 +12,6 @@ public class PlayerAnimationController : MonoBehaviour
     public event Action OnStartJump;
     public event Action<bool> OnMoveEnable;
 
-    bool isDamaged = false;
-    Vector2 damagedPos;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -38,11 +35,11 @@ public class PlayerAnimationController : MonoBehaviour
             animator.SetBool("IsAttack", false);
             OnMoveEnable?.Invoke(true);
         }
-        //else if(stateInfo.IsName("Hurt") && stateInfo.normalizedTime >= 1.0f)
-        //{
-        //    animator.SetBool("IsHurted", false);
-        //    OnMoveEnable?.Invoke(true);
-        //}
+        else if(stateInfo.IsName("Hurt") && stateInfo.normalizedTime >= 1.0f)
+        {
+            animator.SetBool("IsHurted", false);
+            OnMoveEnable?.Invoke(true);
+        }
     }
 
     public void HandleMove(float input)
@@ -87,14 +84,14 @@ public class PlayerAnimationController : MonoBehaviour
         Color originColor = skeleton.Skeleton.GetColor();
         originColor.a = 0.5f;
         skeleton.Skeleton.SetColor(originColor);
-
+        OnMoveEnable?.Invoke(false);
         animator.SetBool("IsHurted", true);
-        //animator.SetBool("IsMove", false);
         Invoke("OffDamaged", 2);
     }
 
     void OffDamaged()
     {
+        gameObject.layer = 6;
         OnMoveEnable?.Invoke(true);
         SkeletonAnimation skeleton = GetComponentInChildren<SkeletonAnimation>();
         Color originColor = skeleton.Skeleton.GetColor();

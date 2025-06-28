@@ -10,8 +10,6 @@ using UnityEngine;
 public class PlayerEquipper : MonoBehaviour
 {
     [SerializeField]
-    TextMeshProUGUI text;
-    [SerializeField]
     PlayerEquipment playerEquipment;
     [SerializeField]
     ItemSpawner spawner;
@@ -73,29 +71,21 @@ public class PlayerEquipper : MonoBehaviour
             playerEquipment.SetArmorChange(in newArmor);
         }
 
-        //overlappedList.RemoveAt(overlappedList.Count()-1);
         Destroy(overlappedList[overlappedList.Count()-1]);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void AddOverlappedItem(GameObject item)
     {
-        if(collision.tag == "Item")
-        {
-            text.text = "(E) Equip";
-            overlappedList.Add(collision.gameObject);
-        }
-
+        overlappedList.Add(item);
     }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "Item")
-        {
-            overlappedList.Remove(collision.gameObject);
-        }
 
-        if(overlappedList.Count() < 1)
-        {
-            text.text = "";
-        }
+    public void RemoveOverlappedItem(GameObject item)
+    {
+        overlappedList.Remove(item);
+    }
+
+    public int GetItemListSize()
+    {
+        return overlappedList.Count;
     }
 }

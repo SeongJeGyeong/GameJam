@@ -48,10 +48,6 @@ public class PlayerController : MonoBehaviour
             playerMovement.isGround = true;
             OnLand?.Invoke();
         }
-        if(collision.collider.tag == "Monster")
-        {
-            OnDamaged?.Invoke(new Vector2(collision.transform.position.x, collision.transform.position.y));
-        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -62,6 +58,31 @@ public class PlayerController : MonoBehaviour
             OnFall?.Invoke();
         }
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Item")
+        {
+            playerEquipper.AddOverlappedItem(collision.gameObject);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Monster")
+        {
+            OnDamaged?.Invoke(new Vector2(collision.transform.position.x, collision.transform.position.y));
+            gameObject.layer = 11;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Item")
+        {
+            playerEquipper.RemoveOverlappedItem(collision.gameObject);
+        }
     }
 }
 
