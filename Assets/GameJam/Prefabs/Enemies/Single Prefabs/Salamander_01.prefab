@@ -78,7 +78,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3992979483534764865
 Transform:
   m_ObjectHideFlags: 0
@@ -155,6 +155,7 @@ GameObject:
   - component: {fileID: 5555720274877723784}
   - component: {fileID: 6524493288412759564}
   - component: {fileID: 2533957149206325269}
+  - component: {fileID: 8744639947726091127}
   m_Layer: 7
   m_Name: Salamander_01
   m_TagString: Monster
@@ -383,3 +384,38 @@ MonoBehaviour:
   wallCheck:
   - {fileID: 6572484660418696494}
   - {fileID: 1463701903554208695}
+--- !u!58 &8744639947726091127
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658998175251782411}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.11189628, y: 1.0852631}
+  serializedVersion: 2
+  m_Radius: 1.3225341
