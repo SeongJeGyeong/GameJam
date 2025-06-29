@@ -26,13 +26,13 @@ public class Slime : Monster
         {
             rb.velocity = new Vector2(-transform.localScale.x * moveSpeed, rb.velocity.y);
 
-            if (!Physics2D.OverlapCircle(wallCheck[0].position, 0.01f, LayerMask.GetMask("Ground")) &&
-                Physics2D.OverlapCircle(wallCheck[1].position, 0.01f, LayerMask.GetMask("Ground")) &&
+            if (!Physics2D.OverlapCircle(wallCheck[0].position, 0.2f, LayerMask.GetMask("Ground")) &&
+                Physics2D.OverlapCircle(wallCheck[1].position, 0.2f, LayerMask.GetMask("Ground")) &&
                  !Physics2D.Raycast(transform.position, -transform.localScale.x * transform.right, 1f, LayerMask.GetMask("Ground")))
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             }
-            else if (Physics2D.OverlapCircle(wallCheck[1].position, 0.01f, LayerMask.GetMask("Wall")))
+            else if (Physics2D.OverlapCircle(wallCheck[1].position, 0.2f, layerMask))
             {
                 //Debug.Log("몬스터 벽 충돌");
                 MonsterFlip();

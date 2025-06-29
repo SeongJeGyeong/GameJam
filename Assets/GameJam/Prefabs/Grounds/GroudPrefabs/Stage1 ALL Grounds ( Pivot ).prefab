@@ -6317,9 +6317,9 @@ GameObject:
   - component: {fileID: 811921070612655963}
   - component: {fileID: 3157861879231578765}
   - component: {fileID: 588337907719520445}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cave_Day_Platform7_Middle (2)
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12253,9 +12253,9 @@ GameObject:
   - component: {fileID: 7615933862051112404}
   - component: {fileID: 5436335955094375240}
   - component: {fileID: 5722880527748391420}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cave_Day_Platform7_Middle (4)
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13943,9 +13943,9 @@ GameObject:
   - component: {fileID: 2809204265090881090}
   - component: {fileID: 4674706249178700858}
   - component: {fileID: 513601974170710735}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cave_Day_Platform7_Middle (1)
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14901,9 +14901,9 @@ GameObject:
   - component: {fileID: 8677321294566677935}
   - component: {fileID: 2748824116306987547}
   - component: {fileID: 5432539704495171504}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cave_Day_Platform7_Bottom
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22544,9 +22544,9 @@ GameObject:
   - component: {fileID: 1942753968148003937}
   - component: {fileID: 53000321107648029}
   - component: {fileID: 96376091640905829}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cave_Day_Platform7_Middle
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23586,76 +23586,6 @@ CompositeCollider2D:
         Y: -117649992
       - X: 477449984
         Y: -117649992
-  - m_Collider: {fileID: 3074776487076152158}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 271500000
-      - X: -466537216
-        Y: 271500000
-      - X: -466537216
-        Y: 226500000
-      - X: -434164320
-        Y: 226500000
-  - m_Collider: {fileID: 96376091640905829}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 226500032
-      - X: -466537216
-        Y: 226500032
-      - X: -466537216
-        Y: 181500032
-      - X: -434164320
-        Y: 181500032
-  - m_Collider: {fileID: 513601974170710735}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 181500032
-      - X: -466537216
-        Y: 181500032
-      - X: -466537216
-        Y: 136500032
-      - X: -434164320
-        Y: 136500032
-  - m_Collider: {fileID: 588337907719520445}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 136500032
-      - X: -466537216
-        Y: 136500032
-      - X: -466537216
-        Y: 91500032
-      - X: -434164320
-        Y: 91500032
-  - m_Collider: {fileID: 4563302924453274362}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 91500032
-      - X: -466537216
-        Y: 91500032
-      - X: -466537216
-        Y: 46500036
-      - X: -434164320
-        Y: 46500036
-  - m_Collider: {fileID: 5722880527748391420}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 46500036
-      - X: -466537216
-        Y: 46500036
-      - X: -466537216
-        Y: 1500034
-      - X: -434164320
-        Y: 1500034
-  - m_Collider: {fileID: 5432539704495171504}
-    m_ColliderPaths:
-    - - X: -434164320
-        Y: 1500034
-      - X: -466537216
-        Y: 1500034
-      - X: -466537216
-        Y: -43499964
-      - X: -434164320
-        Y: -43499964
   - m_Collider: {fileID: 7923910815282634145}
     m_ColliderPaths:
     - - X: -422550016
@@ -26142,10 +26072,6 @@ CompositeCollider2D:
       - {x: 34.244972, y: -2.795}
       - {x: -42.255, y: -2.7949708}
       - {x: -42.25503, y: -2.7649999}
-      - {x: -43.41643, y: -2.7649705}
-      - {x: -43.416462, y: 27.15}
-      - {x: -46.65372, y: 27.149971}
-      - {x: -46.65375, y: -2.7649999}
       - {x: -46.755, y: -2.7650292}
       - {x: -46.754974, y: -11.764999}
       - {x: -42.255005, y: -11.765029}
@@ -31837,9 +31763,9 @@ GameObject:
   - component: {fileID: 2193996004471975540}
   - component: {fileID: 5119394291424508022}
   - component: {fileID: 4563302924453274362}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cave_Day_Platform7_Middle (3)
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32404,9 +32330,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 490325552067418398}
+  - component: {fileID: 4123957030788904478}
+  - component: {fileID: 7566404524742899779}
   m_Layer: 10
   m_Name: SideWall_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32433,6 +32361,150 @@ Transform:
   - {fileID: 8677321294566677935}
   m_Father: {fileID: 7877049441976956886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &4123957030788904478
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8032325075415559695}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!66 &7566404524742899779
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8032325075415559695}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 3074776487076152158}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 271500000
+      - X: -466537216
+        Y: 271500000
+      - X: -466537216
+        Y: 226500000
+      - X: -434164320
+        Y: 226500000
+  - m_Collider: {fileID: 96376091640905829}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 226500032
+      - X: -466537216
+        Y: 226500032
+      - X: -466537216
+        Y: 181500032
+      - X: -434164320
+        Y: 181500032
+  - m_Collider: {fileID: 513601974170710735}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 181500032
+      - X: -466537216
+        Y: 181500032
+      - X: -466537216
+        Y: 136500032
+      - X: -434164320
+        Y: 136500032
+  - m_Collider: {fileID: 588337907719520445}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 136500032
+      - X: -466537216
+        Y: 136500032
+      - X: -466537216
+        Y: 91500032
+      - X: -434164320
+        Y: 91500032
+  - m_Collider: {fileID: 4563302924453274362}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 91500032
+      - X: -466537216
+        Y: 91500032
+      - X: -466537216
+        Y: 46500036
+      - X: -434164320
+        Y: 46500036
+  - m_Collider: {fileID: 5722880527748391420}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 46500036
+      - X: -466537216
+        Y: 46500036
+      - X: -466537216
+        Y: 1500034
+      - X: -434164320
+        Y: 1500034
+  - m_Collider: {fileID: 5432539704495171504}
+    m_ColliderPaths:
+    - - X: -434164320
+        Y: 1500034
+      - X: -466537216
+        Y: 1500034
+      - X: -466537216
+        Y: -43499964
+      - X: -434164320
+        Y: -43499964
+  m_CompositePaths:
+    m_Paths:
+    - - {x: -43.416462, y: -4.3499966}
+      - {x: -43.416462, y: 27.15}
+      - {x: -46.65372, y: 27.149971}
+      - {x: -46.653694, y: -4.3499966}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 8032325075415559695}
 --- !u!1 &8070060699889907948
 GameObject:
   m_ObjectHideFlags: 0
@@ -36051,9 +36123,9 @@ GameObject:
   - component: {fileID: 1807700422735300860}
   - component: {fileID: 3775470085187837565}
   - component: {fileID: 3074776487076152158}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cave_Day_Platform7_Top
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
