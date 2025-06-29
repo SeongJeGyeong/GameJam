@@ -26,6 +26,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Debug.DrawRay(playerRigid.position, Vector2.down * 0.5f, new Color(1, 0, 0));
+        RaycastHit2D hit = Physics2D.Raycast(playerRigid.position, Vector2.down, 0.5f, LayerMask.GetMask("Ground"));
+        if (hit.collider != null)
+        {
+            isGround = true;
+        }
+        else
+        {
+            isGround = false;
+        }
+
         Move();
     }
 
@@ -58,13 +69,17 @@ public class PlayerMovement : MonoBehaviour
     public void SetIsMovable(bool Movable)
     {
         isMovable = Movable;
+        //if(!isMovable)
+        //{
+        //    playerRigid.velocity = Vector2.zero;
+        //}
     }
 
     public void Knockback(Vector2 hittedPos)
     {
-        isMovable = false;
-        int dir = transform.position.x - hittedPos.x > 0 ? 1 : -1;
+        SetIsMovable(false);
         playerRigid.velocity = Vector2.zero;
+        int dir = transform.position.x - hittedPos.x > 0 ? 1 : -1;
         playerRigid.AddForce(new Vector2(dir, 1) * 5, ForceMode2D.Impulse);
         OnHurted?.Invoke();
     }
