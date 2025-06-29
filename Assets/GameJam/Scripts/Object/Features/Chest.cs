@@ -17,14 +17,12 @@ public class Chest : MonoBehaviour
     private List<int> meleeTypeNum;
     [SerializeField]
     private List<int> armorTypeNum;
-    [SerializeField]
-    private List<int> consumptionTypeNum;
 
     ItemSpawner itemSpawner;
     int randomNum;
     void Start()
     {
-        randomItem = (RandomItem)Random.Range(0, 1);
+        randomItem = (RandomItem)Random.Range(0, 2);
         itemSpawner = GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>();
         randomNum = 0;
     }
@@ -55,11 +53,6 @@ public class Chest : MonoBehaviour
                 itemSpawner.SpawnItem(spawnPoint.position, GlobalEnums.ItemType.ARMOR, armorTypeNum[randomNum], 0);
                 break;
 
-            case RandomItem.Consumption:
-                Debug.Log("소비아이템 생성");
-                //randomNum = Random.Range(0, 3);
-                //itemSpawner.SpawnItem(spawnPoint.position, GlobalEnums.ItemType.ARMOR, consumptionTypeNum[randomNum], 0);
-                break;
         }
     }
 

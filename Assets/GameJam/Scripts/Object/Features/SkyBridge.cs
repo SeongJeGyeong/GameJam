@@ -29,4 +29,8 @@ public class SkyBridge : MonoBehaviour
             else desPos = endPos;
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {    
+    }
 }
