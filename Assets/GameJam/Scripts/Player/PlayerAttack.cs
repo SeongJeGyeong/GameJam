@@ -34,6 +34,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if(collider.tag == "Monster")
             {
+                Debug.Log("몬스터 공격");
                 Monster monster = collider.GetComponent<Monster>();
                 if(monster != null) monster.TakeDamage(weapon.attackPower);
             }

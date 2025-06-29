@@ -36,6 +36,7 @@ public abstract class Monster : MonsterBase
 
     protected override void Update()
     {
+        if (currentHp <= 0) Destroy(gameObject); // 죽는거 수정해야함.
         base.Update();
 
         // 공격 대기 중에는 쿨타임 감소
@@ -53,6 +54,7 @@ public abstract class Monster : MonsterBase
 
     public void TakeDamage(int damage)
     {
+        Debug.Log("몬스터 피격");
         currentHp -= damage;
         isHit = true;
         hitCircleCollider.SetActive(false);

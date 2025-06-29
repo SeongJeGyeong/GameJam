@@ -78,8 +78,8 @@ GameObject:
   - component: {fileID: 2969551574243682716}
   - component: {fileID: 3319956487176777610}
   - component: {fileID: 6304543137805705158}
+  - component: {fileID: 1760275829037044388}
   - component: {fileID: 9085945102538937265}
-  - component: {fileID: 4092300249335680716}
   - component: {fileID: 5045340411329505778}
   m_Layer: 7
   m_Name: Salamander
@@ -314,6 +314,23 @@ CircleCollider2D:
   m_Offset: {x: 0.18438983, y: 0.9414186}
   serializedVersion: 2
   m_Radius: 1.2449994
+--- !u!114 &1760275829037044388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6671806015450534670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc44101cc97bfae47abdb519422fa444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRadius: 9.6
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 2112
+  detectionCenter: {fileID: 2513153631701375487}
 --- !u!114 &9085945102538937265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,24 +347,6 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
---- !u!114 &4092300249335680716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6671806015450534670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b64b53cb9131514c8e06d37cfb956c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionDistance: 7
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  rayOrigin: {fileID: 2513153631701375487}
-  direction: {x: -1, y: 0}
 --- !u!114 &5045340411329505778
 MonoBehaviour:
   m_ObjectHideFlags: 0
