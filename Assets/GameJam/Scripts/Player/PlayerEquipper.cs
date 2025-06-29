@@ -10,8 +10,6 @@ using UnityEngine;
 public class PlayerEquipper : MonoBehaviour
 {
     [SerializeField]
-    PlayerEquipment playerEquipment;
-    [SerializeField]
     ItemSpawner spawner;
 
     List<GameObject> overlappedList;
@@ -45,30 +43,31 @@ public class PlayerEquipper : MonoBehaviour
     {
         if (overlappedList.Count() < 1) return;
 
+        PlayerEquipment equipment = GetComponent<PlayerEquipment>();
         Item item = overlappedList[overlappedList.Count()-1].GetComponent<Item>();
         if (item is Weapon)
         {
             Weapon newWeapon = (Weapon)item;
-            EquippedWeapon itemInfo = playerEquipment.GetEquippedWeapon();
+            EquippedWeapon itemInfo = equipment.GetEquippedWeapon();
             if (itemInfo.ID != -1)
             {
                 Vector3 spawnPosition = transform.position;
                 spawnPosition.y += 2;
                 spawner.SpawnItem(spawnPosition, itemInfo.type, itemInfo.ID, itemInfo.durability);
             }
-            playerEquipment.SetWeaponChange(in newWeapon);
+            equipment.SetWeaponChange(in newWeapon);
         }
         else if(item is Equipment)
         {
             Equipment newArmor = (Equipment)item;
-            EquippedArmor itemInfo = playerEquipment.GetEquippedArmor();
+            EquippedArmor itemInfo = equipment.GetEquippedArmor();
             if(itemInfo.ID != 0)
             {
                 Vector3 spawnPosition = transform.position;
                 spawnPosition.y += 2;
                 spawner.SpawnItem(spawnPosition, GlobalEnums.ItemType.ARMOR, itemInfo.ID, itemInfo.durability);
             }
-            playerEquipment.SetArmorChange(in newArmor);
+            equipment.SetArmorChange(in newArmor);
         }
 
         Destroy(overlappedList[overlappedList.Count()-1]);

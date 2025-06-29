@@ -11,11 +11,6 @@ public class PlayerAttack : MonoBehaviour
 
     public event Action<int> OnAttack;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         
@@ -44,14 +39,14 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
-    {
-        float flipDir = transform.localScale.x;
-        EquippedWeapon weapon = PlayerEquipment.GetEquipList().leftHand;
-        Vector2 HitBoxPosition = new Vector2(transform.position.x + flipDir * 2, transform.position.y + 2);
-        Vector2 HitBoxSize = weapon.hitBoxSize;
+    //private void OnDrawGizmos()
+    //{
+    //    float flipDir = transform.localScale.x;
+    //    EquippedWeapon weapon = PlayerEquipment.GetEquipList().leftHand;
+    //    Vector2 HitBoxPosition = new Vector2(transform.position.x + flipDir * 2, transform.position.y + 2);
+    //    Vector2 HitBoxSize = weapon.hitBoxSize;
 
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(HitBoxPosition, HitBoxSize);
-    }
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireCube(HitBoxPosition, HitBoxSize);
+    //}
 }

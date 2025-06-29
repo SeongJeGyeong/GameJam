@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerStatus : MonoBehaviour
@@ -8,12 +10,14 @@ public class PlayerStatus : MonoBehaviour
     int totalAttackPower;
 
 
-    public void ChangeDurability(int damage)
+    public event Action OnDead;
+
+    public void ChangeDurability(int value)
     {
-        totalDurability += damage;
+        totalDurability += value;
         if(totalDurability < 0)
         {
-            Dead();
+            OnDead?.Invoke();
         }
     }
 
@@ -30,10 +34,5 @@ public class PlayerStatus : MonoBehaviour
     public void SetAttackPower(int attackPower)
     {
         totalAttackPower = attackPower;
-    }    
-
-    void Dead()
-    {
-
     }
 }

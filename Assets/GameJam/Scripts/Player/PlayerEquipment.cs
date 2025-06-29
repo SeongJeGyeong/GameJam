@@ -30,6 +30,7 @@ public struct EquipList
 
 public class PlayerEquipment : MonoBehaviour
 {
+
     [SerializeField]
     SkeletonAnimation skeletonAnimation;
 
@@ -83,7 +84,7 @@ public class PlayerEquipment : MonoBehaviour
 
     public void ApplyEquipChange()
     {
-        var skeleton = skeletonAnimation.Skeleton;
+        var skeleton = skeletonAnimation.skeleton;
         var skeletonData = skeleton.Data;
 
         var NewCustomSkin = new Skin("CustomCharacter");
