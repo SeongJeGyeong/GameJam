@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// ¸ğµç ¸ó½ºÅÍÀÇ ±âº» Çàµ¿ (ÀÌµ¿ / Å½Áö / °ø°İ Æ®¸®°Å)
+/// ëª¨ë“  ëª¬ìŠ¤í„°ì˜ ê¸°ë³¸ í–‰ë™ (ì´ë™ / íƒì§€ / ê³µê²© íŠ¸ë¦¬ê±°)
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 public abstract class MonsterBase : MonoBehaviour
@@ -20,29 +20,27 @@ public abstract class MonsterBase : MonoBehaviour
 
     protected virtual void Update()
     {
-        Debug.Log(detector);
         bool isDetectedNow = detector != null && detector.IsPlayerDetected();
-        Debug.Log(isDetectedNow);
 
-        // °¨Áö ÀÌÀü¿¡´Â ±âº» ÀÌµ¿
+        // ê°ì§€ ì´ì „ì—ëŠ” ê¸°ë³¸ ì´ë™
         if (!playerDetectedOnce)
         {
             mover?.Move();
 
             if (isDetectedNow)
             {
-                playerTransform = detector.GetPlayerTransform(); // ÇÃ·¹ÀÌ¾î À§Ä¡ ÃßÃâ
+                playerTransform = detector.GetPlayerTransform(); // í”Œë ˆì´ì–´ ìœ„ì¹˜ ì¶”ì¶œ
                 playerDetectedOnce = true;
                 isTracking = true;
             }
         }
 
-        // ÇÑ ¹ø °¨ÁöµÇ¸é ÃßÀû ½ÃÀÛ
+        // í•œ ë²ˆ ê°ì§€ë˜ë©´ ì¶”ì  ì‹œì‘
         if (playerDetectedOnce)
         {
             OnPlayerDetected();
 
-            // ÃßÀû Áß¿¡ °¨Áö ¾ÈµÇ°Å³ª, º®ÀÌ ÀÖÀ¸¸é ¿ø·¡ Move() ·ÎÁ÷À¸·Î.
+            // ì¶”ì  ì¤‘ì— ê°ì§€ ì•ˆë˜ê±°ë‚˜, ë²½ì´ ìˆìœ¼ë©´ ì›ë˜ Move() ë¡œì§ìœ¼ë¡œ.
             if (!isDetectedNow)
             {
                 OnLostPlayer();
@@ -59,15 +57,15 @@ public abstract class MonsterBase : MonoBehaviour
     }
 
     /// <summary>
-    /// ÇÃ·¹ÀÌ¾î°¡ Å½ÁöµÇ¾úÀ» ¶§ È£ÃâµÊ
+    /// í”Œë ˆì´ì–´ê°€ íƒì§€ë˜ì—ˆì„ ë•Œ í˜¸ì¶œë¨
     /// </summary>
     protected abstract void OnPlayerDetected();
 
     /// <summary>
-    /// ÇÃ·¹ÀÌ¾î¸¦ ³õÃÆÀ» ¶§ È£ÃâµÊ
+    /// í”Œë ˆì´ì–´ë¥¼ ë†“ì³¤ì„ ë•Œ í˜¸ì¶œë¨
     /// </summary>
     protected virtual void OnLostPlayer()
     {
-        mover?.ResetMoveSpeed(); // ±âº» ¼Óµµ·Î µÇµ¹¸²
+        mover?.ResetMoveSpeed(); // ê¸°ë³¸ ì†ë„ë¡œ ë˜ëŒë¦¼
     }
 }

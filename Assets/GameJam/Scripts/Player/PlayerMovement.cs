@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
     public event Action<float> OnMove;
     public event Action OnJump;
     public event Action OnHurted;
-    public event Action OnGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -60,8 +59,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isJumping || !isMovable || !isGround) return;
         isJumping = true;
-        //SetIsMovable(false);
-        Debug.Log("레디점프");
         OnJump?.Invoke();
     }
 

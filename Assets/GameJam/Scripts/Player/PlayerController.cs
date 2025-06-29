@@ -22,13 +22,11 @@ public class PlayerController : MonoBehaviour
     PlayerStatus playerStatus;
 
     bool isDead = false;
-    bool isPaused = false;
     void Start()
     {
         playerMovement.OnMove += playerAnimationController.HandleMove;
         playerMovement.OnJump += playerAnimationController.HandleReadyJump;
         playerMovement.OnHurted += playerAnimationController.HandleDamaged;
-        playerMovement.OnGrounded += playerAnimationController.HandleLand;
 
         playerAnimationController.OnStartJump += playerMovement.StartJump;
         playerAnimationController.OnMoveEnable += playerMovement.SetIsMovable;
@@ -55,8 +53,8 @@ public class PlayerController : MonoBehaviour
         {
             foreach (ContactPoint2D contact in collision.contacts)
             {
-                // À§ÂÊ¿¡¼­ ´ê¾Ò´ÂÁö È®ÀÎ
-                if (contact.normal.y >= 0.7f) // y°ªÀÌ Å¬¼ö·Ï À§ÂÊ¿¡¼­ Ãæµ¹
+                // ìœ„ìª½ì—ì„œ ë‹¿ì•˜ëŠ”ì§€ í™•ì¸
+                if (contact.normal.y >= 0.7f) // yê°’ì´ í´ìˆ˜ë¡ ìœ„ìª½ì—ì„œ ì¶©ëŒ
                 {
                     playerAnimationController.HandleLand();
                     playerMovement.isJumping = false;

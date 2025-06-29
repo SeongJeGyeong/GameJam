@@ -30,7 +30,7 @@ public class BtnType : MonoBehaviour
                 break;
 
             case BTNType.Exit:
-                Debug.Log("°ÔÀÓ Á¾·á");
+                Debug.Log("ê²Œìž„ ì¢…ë£Œ");
                 Application.Quit();
                 break;
         }

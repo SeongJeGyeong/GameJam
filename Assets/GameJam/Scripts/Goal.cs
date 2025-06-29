@@ -50,7 +50,7 @@ public class Goal : MonoBehaviour
         clear = true;
         //Time.timeScale = 0f;
         time = timer.GetCurTime();
-        text.text = "∞…∏∞ Ω√∞£ : " + time.ToString() + " √ ";
+        text.text = "ÌÅ¥Î¶¨Ïñ¥ ÏãúÍ∞Ñ : " + time.ToString() + " Ï¥à";
         clearUI.SetActive(true);
         yield return new WaitForSeconds(2.0f);
         //Time.timeScale = 1.0f;
