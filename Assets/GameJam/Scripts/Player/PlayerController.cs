@@ -58,7 +58,6 @@ public class PlayerController : MonoBehaviour
                 // 위쪽에서 닿았는지 확인
                 if (contact.normal.y >= 0.7f) // y값이 클수록 위쪽에서 충돌
                 {
-                    Debug.Log("착지");
                     playerAnimationController.HandleLand();
                     return;
                 }
