@@ -102,7 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 3
   itemNumber: 6
-  durability: 6
+  durability: 5
 --- !u!50 &9002956399161371234
 Rigidbody2D:
   serializedVersion: 4

@@ -17,7 +17,7 @@ public class Weapon : Item
     public int GetAttackStat() {  return attack; }
 
     // weaponType 가져올 때 사용. int 형으로 반환.
-    public int GetWeaponType() { return (int)weaponType; }
+    public WeaponType GetWeaponType() { return weaponType; }
 }
 
 public enum WeaponType

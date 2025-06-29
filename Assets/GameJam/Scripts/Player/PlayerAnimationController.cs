@@ -30,14 +30,14 @@ public class PlayerAnimationController : MonoBehaviour
             OnStartJump?.Invoke();
             animator.SetBool("IsGround", false);
         }
-        else if(stateInfo.IsName("Attack") && stateInfo.normalizedTime >= 1.0f)
+        else if((stateInfo.IsName("MeleeAttack") || stateInfo.IsName("MagicAttack") || stateInfo.IsName("HandAttack")) && stateInfo.normalizedTime >= 1.0f)
         {
-            animator.SetBool("IsAttack", false);
+            animator.SetInteger("AttackType", 0);
             OnMoveEnable?.Invoke(true);
         }
         else if(stateInfo.IsName("Hurt") && stateInfo.normalizedTime >= 1.0f)
         {
-            animator.SetBool("IsHurted", false);
+            //animator.SetBool("IsHurted", false);
             OnMoveEnable?.Invoke(true);
         }
     }
@@ -69,7 +69,8 @@ public class PlayerAnimationController : MonoBehaviour
 
     public void HandleAttack(int attackType)
     {
-        animator.SetBool("IsAttack", true);
+        animator.SetInteger("AttackType", attackType);
+        //animator.SetBool("IsAttack", true);
         OnMoveEnable?.Invoke(false);
     }
 
@@ -80,7 +81,8 @@ public class PlayerAnimationController : MonoBehaviour
         originColor.a = 0.5f;
         skeleton.Skeleton.SetColor(originColor);
         OnMoveEnable?.Invoke(false);
-        animator.SetBool("IsHurted", true);
+        animator.SetTrigger("IsHurted");
+        //animator.SetBool("IsHurted", true);
         Invoke("OffDamaged", 2);
     }
 
