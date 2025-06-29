@@ -48,14 +48,14 @@ public class PlayerAttack : MonoBehaviour
         spawner.SpawnBullet(firePoint, weapon.ID, transform.localScale.x, weapon.attackPower);
     }
 
-    private void OnDrawGizmos()
-    {
-        float flipDir = transform.localScale.x;
-        EquippedWeapon weapon = playerEquipment.GetEquipList().leftHand;
-        Vector2 HitBoxPosition = new Vector2(transform.position.x + flipDir * 2, transform.position.y + 2);
-        Vector2 HitBoxSize = weapon.hitBoxSize;
+    //private void OnDrawGizmos()
+    //{
+    //    float flipDir = transform.localScale.x;
+    //    EquippedWeapon weapon = playerEquipment.GetEquipList().leftHand;
+    //    Vector2 HitBoxPosition = new Vector2(transform.position.x + flipDir * 2, transform.position.y + 2);
+    //    Vector2 HitBoxSize = weapon.hitBoxSize;
 
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(HitBoxPosition, HitBoxSize);
-    }
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireCube(HitBoxPosition, HitBoxSize);
+    //}
 }
