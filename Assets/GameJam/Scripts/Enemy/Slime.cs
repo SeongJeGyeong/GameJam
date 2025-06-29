@@ -20,7 +20,6 @@ public class Slime : MonsterBase
 
         // 추적 이동
         Vector2 direction = (playerTransform.position - transform.position).normalized;
-        Debug.Log(direction.x);
         mover?.MoveTo(direction);
 
     }

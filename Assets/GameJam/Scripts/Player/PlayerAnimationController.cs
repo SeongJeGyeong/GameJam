@@ -34,7 +34,6 @@ public class PlayerAnimationController : MonoBehaviour
         stateInfo = animator.GetCurrentAnimatorStateInfo(0);
         if (stateInfo.IsName("Jump") && animator.GetBool("IsGround") && stateInfo.normalizedTime >= 1.0f)
         {
-            Debug.Log("점프 스테이트");
             OnStartJump?.Invoke();
             animator.SetBool("IsGround", false);
         }
@@ -110,8 +109,5 @@ public class PlayerAnimationController : MonoBehaviour
         Color originColor = skeleton.Skeleton.GetColor();
         originColor.a = 1f;
         skeleton.Skeleton.SetColor(originColor);
-        //SkeletonAnimation skeleton = GetComponentInChildren<SkeletonAnimation>();
-        //Spine.AnimationState spineAnimationState = skeleton.state;
-        //spineAnimationState.SetAnimation(0, "Death", false);
     }
 }
