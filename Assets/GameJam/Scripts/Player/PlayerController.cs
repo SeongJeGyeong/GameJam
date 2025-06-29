@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         if (isDead) return;
 
         playerMovement.SetMoveInput(Input.GetAxisRaw("Horizontal"));
-        if (Input.GetKeyDown(KeyCode.Space)) playerMovement.ReadyJump();
+        if (Input.GetKeyDown(KeyCode.Space) && playerAnimationController) playerMovement.ReadyJump();
         if (Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
         if (Input.GetMouseButtonDown(0)) playerAttack.Attack();
     }
@@ -59,6 +59,7 @@ public class PlayerController : MonoBehaviour
                 if (contact.normal.y >= 0.7f) // y값이 클수록 위쪽에서 충돌
                 {
                     playerAnimationController.HandleLand();
+                    playerMovement.isJumping = false;
                     return;
                 }
             }

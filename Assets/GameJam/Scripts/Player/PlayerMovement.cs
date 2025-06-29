@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 600.0f;
     public bool isGround = true;
     bool isMovable = true;
+    public bool isJumping = false;
 
     public event Action<float> OnMove;
     public event Action OnJump;
@@ -63,6 +64,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void ReadyJump()
     {
+        if (isJumping) return;
+        isJumping = true;
         isMovable = false;
         OnJump?.Invoke();
     }
