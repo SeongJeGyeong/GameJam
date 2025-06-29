@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
@@ -21,12 +22,13 @@ public class PlayerController : MonoBehaviour
     PlayerStatus playerStatus;
 
     bool isDead = false;
-
+    bool isPaused = false;
     void Start()
     {
         playerMovement.OnMove += playerAnimationController.HandleMove;
         playerMovement.OnJump += playerAnimationController.HandleReadyJump;
         playerMovement.OnHurted += playerAnimationController.HandleDamaged;
+        playerMovement.OnGrounded += playerAnimationController.HandleLand;
 
         playerAnimationController.OnStartJump += playerMovement.StartJump;
         playerAnimationController.OnMoveEnable += playerMovement.SetIsMovable;
@@ -41,24 +43,23 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (isDead) return;
-
         playerMovement.SetMoveInput(Input.GetAxisRaw("Horizontal"));
-        if(Input.GetKeyDown(KeyCode.Space)) playerMovement.ReadyJump();
-        if(Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
-        if (Input.GetMouseButtonDown(0)) playerAttack.Attack();
+        if (Input.GetKeyDown(KeyCode.Space) && playerAnimationController) playerMovement.ReadyJump();
+        if (Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
+        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) playerAttack.Attack();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        if(collision.collider.tag == "Ground")
+        if(collision.collider.tag == "Ground" && !playerAnimationController.IsStateName("Jump"))
         {
             foreach (ContactPoint2D contact in collision.contacts)
             {
                 // 위쪽에서 닿았는지 확인
                 if (contact.normal.y >= 0.7f) // y값이 클수록 위쪽에서 충돌
                 {
-                    Debug.Log("윗면 충돌");
                     playerAnimationController.HandleLand();
+                    playerMovement.isJumping = false;
                     return;
                 }
             }
@@ -90,6 +91,9 @@ public class PlayerController : MonoBehaviour
             if (playerStatus.GetDurability() < 0)
             {
                 isDead = true;
+                Rigidbody2D rigid = GetComponent<Rigidbody2D>();
+                playerMovement.SetIsMovable(false);
+                rigid.velocity = Vector3.zero;
             }
             else
             {

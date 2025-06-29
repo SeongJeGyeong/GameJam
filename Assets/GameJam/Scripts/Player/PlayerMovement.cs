@@ -13,10 +13,12 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 600.0f;
     public bool isGround = true;
     bool isMovable = true;
+    public bool isJumping = false;
 
     public event Action<float> OnMove;
     public event Action OnJump;
     public event Action OnHurted;
+    public event Action OnGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,11 @@ public class PlayerMovement : MonoBehaviour
             isGround = false;
         }
 
+        //if(playerRigid.velocity.y <= 0)
+        //{
+        //    OnGrounded?.Invoke();
+        //}
+
         Move();
     }
 
@@ -49,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(isMovable)
         {
+            Debug.Log("ÀÌµ¿");
             playerRigid.velocity = new Vector2(moveInput * speed, playerRigid.velocity.y);
             OnMove?.Invoke(moveInput);
         }
@@ -56,6 +64,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void ReadyJump()
     {
+        if (isJumping || !isMovable) return;
+        isJumping = true;
         isMovable = false;
         OnJump?.Invoke();
     }
@@ -69,10 +79,6 @@ public class PlayerMovement : MonoBehaviour
     public void SetIsMovable(bool Movable)
     {
         isMovable = Movable;
-        //if(!isMovable)
-        //{
-        //    playerRigid.velocity = Vector2.zero;
-        //}
     }
 
     public void Knockback(Vector2 hittedPos)
