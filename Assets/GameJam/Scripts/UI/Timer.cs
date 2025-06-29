@@ -13,11 +13,12 @@ public class Timer : MonoBehaviour
     GameObject timeUpText;
 
     float timeLeft;
-
+    float curTime;
     // Start is called before the first frame update
     void Start()
     {
         timeLeft = maxTime;
+        curTime = 0;
     }
 
     // Update is called once per frame
@@ -25,6 +26,7 @@ public class Timer : MonoBehaviour
     {
         if (timeLeft > 0)
         {
+            curTime += Time.deltaTime;
             timeLeft -= Time.deltaTime;
             timerBar.fillAmount = timeLeft / maxTime;
         }
@@ -32,5 +34,14 @@ public class Timer : MonoBehaviour
         {
             Time.timeScale = 0;
         }
+    }
+
+    public float GetCurTime()
+    {
+        return curTime;
+    }
+    public float GetLeftTime()
+    {
+        return timeLeft;
     }
 }

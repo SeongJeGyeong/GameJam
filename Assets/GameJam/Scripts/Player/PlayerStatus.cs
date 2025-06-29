@@ -31,6 +31,11 @@ public class PlayerStatus : MonoBehaviour
         return totalAttackPower;
     }
 
+    public int GetToTalDurability()
+    {
+        return totalDurability;
+    }
+
     public void SetAttackPower(int attackPower)
     {
         totalAttackPower = attackPower;
