@@ -76,6 +76,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.tag == "Monster" || collision.tag == "Trap")
         {
+            SoundManager.Instance.PlaySound(SoundEnum.Hitted_Player);
             playerStatus.ChangeDurability(-1);
             gameObject.layer = 11;
             if (playerStatus.GetDurability() < 0)

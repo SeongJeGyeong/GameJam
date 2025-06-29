@@ -60,6 +60,7 @@ public class Chest : MonoBehaviour
 
     IEnumerator OpenChest()
     {
+
         boxCollider.enabled = false;
         GetComponent<SpriteRenderer>().sprite = openSprite;
         SpawnRandomItem();
@@ -71,6 +72,7 @@ public class Chest : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
+            SoundManager.Instance.PlaySound(SoundEnum.ChestOpen);
             StartCoroutine("OpenChest");
         }
     }

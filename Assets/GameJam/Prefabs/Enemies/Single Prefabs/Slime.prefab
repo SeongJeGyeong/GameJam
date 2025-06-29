@@ -79,8 +79,8 @@ GameObject:
   - component: {fileID: 3319956487176777610}
   - component: {fileID: 6304543137805705158}
   - component: {fileID: 4116988244987834808}
-  - component: {fileID: 4771532346743919566}
   - component: {fileID: 5045340411329505778}
+  - component: {fileID: 6318169066354493954}
   m_Layer: 7
   m_Name: Slime
   m_TagString: Monster
@@ -165,7 +165,7 @@ Animator:
   m_GameObject: {fileID: 6671806015450534670}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 43f009470985d5d4d97b1b54f51da39c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 790b8d6e9dcbda74f8837c74b32d4847, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -326,29 +326,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc44101cc97bfae47abdb519422fa444, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 10
-  chasingRadius: 20
+  detectionRadius: 17
   playerLayer:
     serializedVersion: 2
     m_Bits: 2112
   detectionCenter: {fileID: 2513153631701375487}
---- !u!114 &4771532346743919566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6671806015450534670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02aa48850a80c3d45bbd96e60a31a5d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chaseSpeed: 0
-  atkDamage: 1
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!114 &5045340411329505778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,3 +352,28 @@ MonoBehaviour:
   jumpPower: 25
   groundCheckRadius: 0.2
   wallCheckDistance: 2
+--- !u!114 &6318169066354493954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6671806015450534670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31cb06a7f8108b94799dc9a6f9a42018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseSpeed: 5
+  currentHp: 1
+  atkCoolTime: 3
+  isHit: 0
+  canAtk: 1
+  hitCircleCollider: {fileID: 6671806015450534670}
+  atkPoint: {fileID: 2513153631701375487}
+  atkRange: 1
+  atkDamage: 1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 2112
+  anim: {fileID: 2112469193832094868}

@@ -50,6 +50,7 @@ public class PlayerEquipper : MonoBehaviour
             }
             equipment.SetArmorChange(in newArmor);
         }
+        SoundManager.Instance.PlaySound(SoundEnum.EquipChange);
 
         Destroy(overlappedList[overlappedList.Count()-1]);
     }

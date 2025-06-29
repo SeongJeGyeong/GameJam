@@ -47,6 +47,7 @@ public class Goal : MonoBehaviour
 
     IEnumerator ActiveGameClearUI()
     {
+        SoundManager.Instance.PlaySound(SoundEnum.StageClear);
         clear = true;
         //Time.timeScale = 0f;
         time = timer.GetCurTime();
@@ -59,6 +60,7 @@ public class Goal : MonoBehaviour
 
     void ActiveGameFailUI()
     {
+        SoundManager.Instance.PlaySound(SoundEnum.StageFail);
         failUI.SetActive(true);
     }
 }

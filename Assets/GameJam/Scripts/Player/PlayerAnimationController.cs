@@ -44,7 +44,6 @@ public class PlayerAnimationController : MonoBehaviour
         }
         else if(stateInfo.IsName("Hurt") && stateInfo.normalizedTime >= 1.0f)
         {
-            Debug.Log("Hurt Á¾·á");
             OnMoveEnable?.Invoke(true);
         }
     }
@@ -103,11 +102,15 @@ public class PlayerAnimationController : MonoBehaviour
 
     public void Dead()
     {
-        Debug.Log("»ç¸Á");
         animator.SetTrigger("IsDead");
         SkeletonAnimation skeleton = GetComponentInChildren<SkeletonAnimation>();
         Color originColor = skeleton.Skeleton.GetColor();
         originColor.a = 1f;
         skeleton.Skeleton.SetColor(originColor);
+    }
+
+    public void OnFootstep()
+    {
+        SoundManager.Instance.PlaySound(SoundEnum.Player_Move);
     }
 }

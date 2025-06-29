@@ -64,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void StartJump()
     {
+        SoundManager.Instance.PlaySound(SoundEnum.Player_Jump);
         playerRigid.AddForce(transform.up * jumpForce);
         //SetIsMovable(true);
     }

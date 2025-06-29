@@ -8,6 +8,7 @@ public class BtnType : MonoBehaviour
 
     public void OnBtnClick()
     {
+        SoundManager.Instance.PlaySound(SoundEnum.BtnClick);
         switch (currentType)
         {
             case BTNType.Start:
@@ -35,6 +36,12 @@ public class BtnType : MonoBehaviour
                 break;
         }
     }
+
+    public void OnBtnHovered()
+    {
+        SoundManager.Instance.PlaySound(SoundEnum.BtnHover);
+    }
+
 }
 
 public enum BTNType

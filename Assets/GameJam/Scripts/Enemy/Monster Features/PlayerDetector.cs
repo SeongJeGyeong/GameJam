@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerDetector : MonoBehaviour, IPlayerDetectable
 {
-    [Header("°¨Áö ¼³Á¤")]
-    // Inspector¿¡¼­ ½½¶óÀÌ´õ·Î Á¶Àı
+    [Header("íƒì§€ ë²”ìœ„")]
+    // Inspectorï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     [Range(0f, 50f)]
     [SerializeField] private float detectionRadius;
     //[Range(0f, 100f)]
@@ -15,7 +15,7 @@ public class PlayerDetector : MonoBehaviour, IPlayerDetectable
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private Transform detectionCenter;
 
-    private Transform detectedPlayerTransform; // °¨ÁöµÈ ÇÃ·¹ÀÌ¾î Transform ÀúÀå
+    private Transform detectedPlayerTransform; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ Transform ï¿½ï¿½ï¿½ï¿½
 
     private void Reset()
     {
@@ -32,7 +32,7 @@ public class PlayerDetector : MonoBehaviour, IPlayerDetectable
             return true;
         }
 
-        detectedPlayerTransform = null; // °¨Áö ¾È µÆÀ¸¸é ÃÊ±âÈ­
+        detectedPlayerTransform = null; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­
         return false;
     }
 

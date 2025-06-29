@@ -68,12 +68,15 @@ public class ItemSpawner : MonoBehaviour
 
     public void SpawnBullet(Vector3 pos, int idx, float fireDir, int damage)
     {
+        SoundEnum sEnum = SoundEnum.Attack_Magic_Ice;
         switch (idx)
         {
-            case 0: idx = 0; break;
-            case 9: idx = 1; break;
-            case 21: idx = 2; break;
+            case 0: idx = 0; sEnum = SoundEnum.Attack_Magic_Ice; break;
+            case 9: idx = 1; sEnum = SoundEnum.Attack_Magic_Electric; break;
+            case 21: idx = 2; sEnum = SoundEnum.Attack_Magic_Fire; break;
         }
+        SoundManager.Instance.PlaySound(sEnum);
+
         Bullet bullet = Instantiate(BulletPrefabs[idx], pos, Quaternion.identity).GetComponent<Bullet>();
         bullet.SetBulletId(idx);
         bullet.SetFireDir(fireDir);
@@ -83,6 +86,15 @@ public class ItemSpawner : MonoBehaviour
 
     public void SpawnEffect(Vector3 pos, int idx)
     {
+        SoundEnum sEnum = SoundEnum.BulletHited_Ice;
+        switch (idx)
+        {
+            case 0: sEnum = SoundEnum.BulletHited_Ice; break;
+            case 1: sEnum = SoundEnum.BulletHited_Electric; break;
+            case 2: sEnum = SoundEnum.BulletHited_Fire; break;
+        }
+
+        SoundManager.Instance.PlaySound(sEnum);
         Instantiate(EffectPrefabs[idx], pos, Quaternion.identity);
     }
 }

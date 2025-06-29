@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 
 /// <summary>
-/// °øÅë ¸ó½ºÅÍ ±â´É: ÇÇ°İ / °ø°İ / ¾Ö´Ï¸ŞÀÌ¼Ç / ÄğÅ¸ÀÓ
+/// ê³µí†µ ëª¬ìŠ¤í„° ê¸°ëŠ¥: í”¼ê²© / ê³µê²© / ì• ë‹ˆë©”ì´ì…˜ / ì¿¨íƒ€ì„
 /// </summary>
 public class Monster : MonsterBase
 {
@@ -38,10 +38,10 @@ public class Monster : MonsterBase
 
     protected override void Update()
     {
-        if (currentHp <= 0) Destroy(gameObject); // Á×´Â°Å ¼öÁ¤ÇØ¾ßÇÔ.
+        if (currentHp <= 0) Destroy(gameObject); // ì£½ëŠ”ê±° ìˆ˜ì •í•´ì•¼í•¨.
         base.Update();
 
-        // °ø°İ ´ë±â Áß¿¡´Â ÄğÅ¸ÀÓ °¨¼Ò
+        // ê³µê²© ëŒ€ê¸° ì¤‘ì—ëŠ” ì¿¨íƒ€ì„ ê°ì†Œ
         if (!canAtk)
         {
             atkCoolTimeCalc -= Time.deltaTime;
@@ -56,7 +56,7 @@ public class Monster : MonsterBase
 
     public void TakeDamage(int damage)
     {
-        Debug.Log("¸ó½ºÅÍ ÇÇ°İ");
+        SoundManager.Instance.PlaySound(SoundEnum.Hitted_Monster);
         currentHp -= damage;
         isHit = true;
         hitCircleCollider.SetActive(false);
@@ -111,12 +111,11 @@ public class Monster : MonsterBase
 
         if (playerTransform == null) return;
 
-        // ÃßÀû ¼Óµµ Àû¿ë
+        // ì¶”ì  ì†ë„ ì ìš©
         mover?.SetMoveSpeed(chaseSpeed);
 
-        // ÃßÀû ÀÌµ¿
+        // ì¶”ì  ì´ë™
         Vector2 direction = (playerTransform.position - transform.position).normalized;
-        Debug.Log(direction.x);
         mover?.MoveTo(direction);
     }
 
@@ -137,7 +136,7 @@ public class Monster : MonsterBase
     //}
 
     /// <summary>
-    /// °ø°İ ½ÇÁ¦ ½ÇÇà (µ¥¹ÌÁö Àû¿ë µî)
+    /// ê³µê²© ì‹¤ì œ ì‹¤í–‰ (ë°ë¯¸ì§€ ì ìš© ë“±)
     /// </summary>
     //protected abstract void ExecuteAttack(Collider2D target);
 
