@@ -8,6 +8,7 @@ public abstract class MonsterBase : MonoBehaviour
 {
     protected IMover mover;
     protected IPlayerDetector detector;
+    protected bool playerDetectedOnce = false;
 
     protected virtual void Awake()
     {
@@ -17,18 +18,24 @@ public abstract class MonsterBase : MonoBehaviour
 
     protected virtual void Update()
     {
-        if (detector != null && detector.IsPlayerDetected())
+        if (!playerDetectedOnce)
         {
-            OnPlayerDetected();
+            if (detector != null && detector.IsPlayerDetected())
+            {
+                playerDetectedOnce = true;
+                OnPlayerDetected();
+            }
         }
-        else
+
+        // 한 번 감지되면 무조건 움직임 시작
+        if (playerDetectedOnce)
         {
             mover?.Move();
         }
-    }
 
-    /// <summary>
-    /// 플레이어가 탐지되었을 때 호출됨
-    /// </summary>
+    }
+        /// <summary>
+        /// 플레이어가 탐지되었을 때 호출됨
+        /// </summary>
     protected abstract void OnPlayerDetected();
 }

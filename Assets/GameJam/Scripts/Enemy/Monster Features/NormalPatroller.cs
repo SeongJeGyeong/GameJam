@@ -59,6 +59,7 @@ public class NormalPatroller : MonoBehaviour, IMover
         tf.localScale = scale;
 
         rb.velocity = Vector2.zero;
+
     }
 
     private void OnDrawGizmosSelected()
