@@ -7,7 +7,7 @@ using UnityEngine;
 public class PlayerAttackAnimatorBehaviour : StateMachineBehaviour
 {
     [SerializeField]
-    List<AnimationClip> motion;
+    AnimationClip motion;
     string animationClip;
     [Header("스파인 모션 레이어")]
     public int layer = 0;
@@ -20,7 +20,7 @@ public class PlayerAttackAnimatorBehaviour : StateMachineBehaviour
     {
         if (motion != null)
         {
-            animationClip = motion[0].name;
+            animationClip = motion.name;
         }
     }
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -33,19 +33,6 @@ public class PlayerAttackAnimatorBehaviour : StateMachineBehaviour
 
         PlayerEquipment equipInfo = animator.GetComponent<PlayerEquipment>();
         EquippedWeapon weapon = equipInfo.GetEquipList().leftHand;
-
-        switch(weapon.type)
-        {
-            case GlobalEnums.ItemType.MELEE:
-                animationClip = motion[0].name;
-                break;
-            case GlobalEnums.ItemType.STAFF:
-                animationClip = motion[1].name;
-                break;
-            case GlobalEnums.ItemType.EMPTY:
-                animationClip = motion[2].name;
-                break;
-        }
 
         if (animationClip != null)
         {

@@ -26,18 +26,19 @@ public class SpineAnimatorBehaviour : StateMachineBehaviour
             skeletonAnimation = animator.GetComponentInChildren<SkeletonAnimation>();
             spineAnimationState = skeletonAnimation.state;
         }
+
         if (animationClip != null)
         {
+            if(animationClip == "MeleeAttack" || animationClip == "MagicAttack")
+            {
+                PlayerEquipment equipInfo = animator.GetComponent<PlayerEquipment>();
+                EquippedWeapon weapon = equipInfo.GetEquipList().leftHand;
+                timeScale = weapon.attackSpeed;
+                animator.speed = weapon.attackSpeed + 0.3f;
+            }
+
             trackEntry = spineAnimationState.SetAnimation(layer, animationClip, stateInfo.loop);
             trackEntry.TimeScale = timeScale;
         }
-    }
-
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-        //if(stateInfo.IsName("Hurt"))
-        //{
-        //    animator.SetBool("IsHurted", false);
-        //}
     }
 }

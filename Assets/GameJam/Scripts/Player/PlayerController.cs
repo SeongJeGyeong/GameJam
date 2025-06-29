@@ -2,6 +2,7 @@ using Spine.Unity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -19,21 +20,28 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     PlayerStatus playerStatus;
 
+    bool isDead = false;
+
     void Start()
     {
         playerMovement.OnMove += playerAnimationController.HandleMove;
         playerMovement.OnJump += playerAnimationController.HandleReadyJump;
         playerMovement.OnHurted += playerAnimationController.HandleDamaged;
+
         playerAnimationController.OnStartJump += playerMovement.StartJump;
         playerAnimationController.OnMoveEnable += playerMovement.SetIsMovable;
         playerAttack.OnAttack += playerAnimationController.HandleAttack;
         playerEquipment.OnApplyAttackPower += playerStatus.SetAttackPower;
         playerEquipment.OnApplyDurability += playerStatus.SetDurability;
+        playerStatus.OnDead += playerAnimationController.Dead;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (isDead) return;
+
         playerMovement.SetMoveInput(Input.GetAxisRaw("Horizontal"));
         if(Input.GetKeyDown(KeyCode.Space)) playerMovement.ReadyJump();
         if(Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
@@ -44,20 +52,26 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.collider.tag == "Ground")
         {
-            playerMovement.isGround = true;
-            playerAnimationController.HandleLand();
+            foreach (ContactPoint2D contact in collision.contacts)
+            {
+                // 위쪽에서 닿았는지 확인
+                if (contact.normal.y >= 0.7f) // y값이 클수록 위쪽에서 충돌
+                {
+                    Debug.Log("윗면 충돌");
+                    playerAnimationController.HandleLand();
+                    return;
+                }
+            }
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.collider.tag == "Ground")
-        {
-            playerMovement.isGround = false;
-            playerAnimationController.HandleFall();
-        }
-
-    }
+    //private void OnCollisionExit2D(Collision2D collision)
+    //{
+    //    if (collision.collider.tag == "Ground")
+    //    {
+    //        playerAnimationController.HandleFall();
+    //    }
+    //}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -69,11 +83,19 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag == "Monster")
+        if (collision.tag == "Monster" || collision.tag == "Trap")
         {
-            playerMovement.Knockback(new Vector2(collision.transform.position.x, collision.transform.position.y));
-            gameObject.layer = 11;
             playerStatus.ChangeDurability(-1);
+            gameObject.layer = 11;
+            if (playerStatus.GetDurability() < 0)
+            {
+                isDead = true;
+            }
+            else
+            {
+                if (playerStatus.GetDurability() == 0) playerEquipment.SetArmorChange(new Equipment());
+                playerMovement.Knockback(new Vector2(collision.transform.position.x, collision.transform.position.y));
+            }
         }
     }
 

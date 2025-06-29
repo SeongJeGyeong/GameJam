@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEngine.UI.CanvasScaler;
 
 public class ItemSpawner : MonoBehaviour
 {
@@ -12,6 +14,10 @@ public class ItemSpawner : MonoBehaviour
     private List<GameObject> EquipmentPrefabs;
     [SerializeField]
     private List<GameObject> ConsumptionPrefabs;
+    [SerializeField]
+    private List<GameObject> BulletPrefabs;
+    [SerializeField]
+    private List<GameObject> EffectPrefabs;
 
     public void SpawnItem(Vector3 pos, GlobalEnums.ItemType type, int TypeNum, int durability)
     {
@@ -58,6 +64,26 @@ public class ItemSpawner : MonoBehaviour
                 break;
         }
 
+    }
+
+    public void SpawnBullet(Vector3 pos, int idx, float fireDir, int damage)
+    {
+        switch (idx)
+        {
+            case 0: idx = 0; break;
+            case 9: idx = 1; break;
+            case 21: idx = 2; break;
+        }
+        Bullet bullet = Instantiate(BulletPrefabs[idx], pos, Quaternion.identity).GetComponent<Bullet>();
+        bullet.SetBulletId(idx);
+        bullet.SetFireDir(fireDir);
+        bullet.SetBulletDamage(damage);
+        bullet.OnHit += SpawnEffect;
+    }
+
+    public void SpawnEffect(Vector3 pos, int idx)
+    {
+        Instantiate(EffectPrefabs[idx], pos, Quaternion.identity);
     }
 }
 
