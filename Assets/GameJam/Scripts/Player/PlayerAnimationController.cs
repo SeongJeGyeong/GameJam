@@ -28,7 +28,7 @@ public class PlayerAnimationController : MonoBehaviour
         if (stateInfo.IsName("Jump") && animator.GetBool("IsGround") && stateInfo.normalizedTime >= 1.0f)
         {
             OnStartJump?.Invoke();
-            HandleFall();
+            animator.SetBool("IsGround", false);
         }
         else if(stateInfo.IsName("Attack") && stateInfo.normalizedTime >= 1.0f)
         {
@@ -59,11 +59,6 @@ public class PlayerAnimationController : MonoBehaviour
     public void HandleReadyJump()
     {
         animator.SetBool("IsJump", true);
-    }
-
-    public void HandleFall()
-    {
-        animator.SetBool("IsGround", false);
     }
 
     public void HandleLand()

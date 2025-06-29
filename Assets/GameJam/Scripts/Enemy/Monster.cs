@@ -121,10 +121,21 @@ public class Monster : MonoBehaviour
 
     public void TakeDamage(int dam)
     {
+        Debug.Log("맞음");
         currentHp -= dam;
         isHit = true;
         // Knock Back or Dead
         hitBoxCollider.SetActive(false);
+
+        if(isHit)
+        Anim.SetBool("isHurt", true);
+        StartCoroutine(ResetHurtFlag());
+    }
+
+    private IEnumerator ResetHurtFlag()
+    {
+        yield return new WaitForSeconds(1f); // 0.3초 후 isHurt를 false로
+        Anim.SetBool("isHurt", false);
     }
 
     protected void OnTriggerEnter2D(Collider2D collision)
