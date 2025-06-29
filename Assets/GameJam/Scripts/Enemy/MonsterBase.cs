@@ -20,7 +20,9 @@ public abstract class MonsterBase : MonoBehaviour
 
     protected virtual void Update()
     {
+        Debug.Log(detector);
         bool isDetectedNow = detector != null && detector.IsPlayerDetected();
+        Debug.Log(isDetectedNow);
 
         // 감지 이전에는 기본 이동
         if (!playerDetectedOnce)

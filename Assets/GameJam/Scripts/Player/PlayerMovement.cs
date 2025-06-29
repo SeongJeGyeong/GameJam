@@ -56,7 +56,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if(isMovable)
         {
-            Debug.Log("¿Ãµø");
             playerRigid.velocity = new Vector2(moveInput * speed, playerRigid.velocity.y);
             OnMove?.Invoke(moveInput);
         }

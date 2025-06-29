@@ -7,11 +7,11 @@ public class PlayerDetector : MonoBehaviour, IPlayerDetectable
     [Header("감지 설정")]
     // Inspector에서 슬라이더로 조절
     [Range(0f, 50f)]
-    [SerializeField] private float detectionRadius; 
+    [SerializeField] private float detectionRadius;
     //[Range(0f, 100f)]
     //[SerializeField] private float chasingOutRadius; 
-    
-    
+
+
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private Transform detectionCenter;
 

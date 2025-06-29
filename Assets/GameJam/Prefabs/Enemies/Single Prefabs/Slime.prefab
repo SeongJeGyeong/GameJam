@@ -165,7 +165,7 @@ Animator:
   m_GameObject: {fileID: 6671806015450534670}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 790b8d6e9dcbda74f8837c74b32d4847, type: 2}
+  m_Controller: {fileID: 9100000, guid: 43f009470985d5d4d97b1b54f51da39c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -326,7 +326,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc44101cc97bfae47abdb519422fa444, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 9.6
+  detectionRadius: 10
+  chasingRadius: 20
   playerLayer:
     serializedVersion: 2
     m_Bits: 2112
@@ -343,6 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02aa48850a80c3d45bbd96e60a31a5d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chaseSpeed: 0
   atkDamage: 1
   playerLayer:
     serializedVersion: 2

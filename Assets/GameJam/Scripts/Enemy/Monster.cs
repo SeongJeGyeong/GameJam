@@ -4,8 +4,10 @@ using UnityEngine;
 /// <summary>
 /// 공통 몬스터 기능: 피격 / 공격 / 애니메이션 / 쿨타임
 /// </summary>
-public abstract class Monster : MonsterBase
+public class Monster : MonsterBase
 {
+    [SerializeField] private float chaseSpeed;
+
     [Header("Status")]
     public int currentHp = 1;
     public float atkCoolTime = 3f;
@@ -62,7 +64,7 @@ public abstract class Monster : MonsterBase
         if (anim != null)
             anim.SetBool("isHurt", true);
 
-        StartCoroutine(ResetHurtFlag());
+        //StartCoroutine(ResetHurtFlag());
     }
 
     private IEnumerator ResetHurtFlag()
@@ -105,31 +107,41 @@ public abstract class Monster : MonsterBase
 
     protected override void OnPlayerDetected()
     {
-        TryAttack();
+        //TryAttack();
+
+        if (playerTransform == null) return;
+
+        // 추적 속도 적용
+        mover?.SetMoveSpeed(chaseSpeed);
+
+        // 추적 이동
+        Vector2 direction = (playerTransform.position - transform.position).normalized;
+        Debug.Log(direction.x);
+        mover?.MoveTo(direction);
     }
 
-    protected virtual void TryAttack()
-    {
-        if (!canAtk) return;
+    //protected virtual void TryAttack()
+    //{
+    //    if (!canAtk) return;
 
-        Collider2D player = Physics2D.OverlapCircle(atkPoint.position, atkRange, playerLayer);
-        if (player != null)
-        {
-            canAtk = false;
+    //    Collider2D player = Physics2D.OverlapCircle(atkPoint.position, atkRange, playerLayer);
+    //    if (player != null)
+    //    {
+    //        canAtk = false;
 
-            if (anim != null)
-                anim.SetTrigger("Attack");
+    //        if (anim != null)
+    //            anim.SetTrigger("Attack");
 
-            ExecuteAttack(player);
-        }
-    }
+    //        //ExecuteAttack(player);
+    //    }
+    //}
 
     /// <summary>
     /// 공격 실제 실행 (데미지 적용 등)
     /// </summary>
-    protected abstract void ExecuteAttack(Collider2D target);
+    //protected abstract void ExecuteAttack(Collider2D target);
 
-    protected virtual void OnDrawGizmosSelected()
+    protected void OnDrawGizmosSelected()
     {
         if (atkPoint != null)
         {
