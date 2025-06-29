@@ -130,8 +130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: a93c8669a398fff4996ea2ebe331d9ba, type: 2}
-  initialSkinName: 0
+  skeletonDataAsset: {fileID: 11400000, guid: d757c04600c957b4d8001489aeeb22e6, type: 2}
+  initialSkinName: 
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
   initialFlipY: 0
@@ -356,7 +356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce458cfb5465744187a33b564362097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerEquipment: {fileID: 123959701905604112}
   spawner: {fileID: 0}
 --- !u!114 &123959701905604112
 MonoBehaviour:
