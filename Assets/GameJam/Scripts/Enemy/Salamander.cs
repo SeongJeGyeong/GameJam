@@ -13,7 +13,7 @@ public class Salamander : MonsterBase
     protected override void OnPlayerDetected()
     {
         // 플레이어가 감지됐을 때 몬스터가 할 행동
-        mover?.Move();
+        
 
 
     }
