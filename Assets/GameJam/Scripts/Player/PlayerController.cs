@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
         playerMovement.OnMove += playerAnimationController.HandleMove;
         playerMovement.OnJump += playerAnimationController.HandleReadyJump;
         playerMovement.OnHurted += playerAnimationController.HandleDamaged;
+        playerMovement.OnGrounded += playerAnimationController.HandleLand;
 
         playerAnimationController.OnStartJump += playerMovement.StartJump;
         playerAnimationController.OnMoveEnable += playerMovement.SetIsMovable;
@@ -43,21 +44,21 @@ public class PlayerController : MonoBehaviour
         if (isDead) return;
 
         playerMovement.SetMoveInput(Input.GetAxisRaw("Horizontal"));
-        if(Input.GetKeyDown(KeyCode.Space)) playerMovement.ReadyJump();
-        if(Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
+        if (Input.GetKeyDown(KeyCode.Space)) playerMovement.ReadyJump();
+        if (Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
         if (Input.GetMouseButtonDown(0)) playerAttack.Attack();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        if(collision.collider.tag == "Ground")
+        if(collision.collider.tag == "Ground" && !playerAnimationController.IsStateName("Jump"))
         {
             foreach (ContactPoint2D contact in collision.contacts)
             {
                 // 위쪽에서 닿았는지 확인
                 if (contact.normal.y >= 0.7f) // y값이 클수록 위쪽에서 충돌
                 {
-                    Debug.Log("윗면 충돌");
+                    Debug.Log("착지");
                     playerAnimationController.HandleLand();
                     return;
                 }

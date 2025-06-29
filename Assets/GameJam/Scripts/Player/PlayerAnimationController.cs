@@ -9,6 +9,8 @@ public class PlayerAnimationController : MonoBehaviour
     [SerializeField]
     Animator animator;
 
+    AnimatorStateInfo stateInfo;
+
     public event Action OnStartJump;
     public event Action<bool> OnMoveEnable;
 
@@ -22,11 +24,17 @@ public class PlayerAnimationController : MonoBehaviour
     {
     }
 
+    public bool IsStateName(string name)
+    {
+        return stateInfo.IsName(name);
+    }
+
     private void FixedUpdate()
     {
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        stateInfo = animator.GetCurrentAnimatorStateInfo(0);
         if (stateInfo.IsName("Jump") && animator.GetBool("IsGround") && stateInfo.normalizedTime >= 1.0f)
         {
+            Debug.Log("점프 스테이트");
             OnStartJump?.Invoke();
             animator.SetBool("IsGround", false);
         }
@@ -37,7 +45,6 @@ public class PlayerAnimationController : MonoBehaviour
         }
         else if(stateInfo.IsName("Hurt") && stateInfo.normalizedTime >= 1.0f)
         {
-            //animator.SetBool("IsHurted", false);
             OnMoveEnable?.Invoke(true);
         }
     }
@@ -70,7 +77,6 @@ public class PlayerAnimationController : MonoBehaviour
     public void HandleAttack(int attackType)
     {
         animator.SetInteger("AttackType", attackType);
-        //animator.SetBool("IsAttack", true);
         OnMoveEnable?.Invoke(false);
     }
 
@@ -82,7 +88,6 @@ public class PlayerAnimationController : MonoBehaviour
         skeleton.Skeleton.SetColor(originColor);
         OnMoveEnable?.Invoke(false);
         animator.SetTrigger("IsHurted");
-        //animator.SetBool("IsHurted", true);
         Invoke("OffDamaged", 2);
     }
 
