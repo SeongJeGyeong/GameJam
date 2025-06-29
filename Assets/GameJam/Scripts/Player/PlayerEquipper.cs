@@ -65,7 +65,8 @@ public class PlayerEquipper : MonoBehaviour
             {
                 Vector3 spawnPosition = transform.position;
                 spawnPosition.y += 2;
-                spawner.SpawnItem(spawnPosition, GlobalEnums.ItemType.ARMOR, itemInfo.ID, itemInfo.durability);
+                PlayerStatus status = GetComponent<PlayerStatus>();
+                spawner.SpawnItem(spawnPosition, GlobalEnums.ItemType.ARMOR, itemInfo.ID, status.GetDurability());
             }
             equipment.SetArmorChange(in newArmor);
         }

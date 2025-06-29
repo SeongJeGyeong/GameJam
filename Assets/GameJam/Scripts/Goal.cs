@@ -33,6 +33,7 @@ public class Goal : MonoBehaviour
         if (left <= 0 && !clear && IsFirst)
         {
             IsFirst = false;
+            ActiveGameFailUI();
         }
     }
 
@@ -56,4 +57,8 @@ public class Goal : MonoBehaviour
         GameManager.Instance.LoadLobbyScene();
     }
 
+    void ActiveGameFailUI()
+    {
+        failUI.SetActive(true);
+    }
 }

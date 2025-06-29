@@ -19,7 +19,6 @@ public class StatUI : MonoBehaviour
         {
             image.SetActive(false);
         }
-        transform.position = player.transform.position + Vector3.up * 4f;
         status = player.GetComponent<PlayerStatus>();
         curDurability = status.GetToTalDurability();
     }
@@ -27,13 +26,13 @@ public class StatUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        transform.position = player.transform.position + Vector3.up * 4f;
         SetDurabilityUI();
     }
 
     void SetDurabilityUI()
     {
-        //curDurability = status.GetToTalDurability();
-        //Debug.Log(curDurability);
+        curDurability = status.GetToTalDurability();
         for (int i = 0; i < 5; i++)
         {
             if (i < curDurability)
