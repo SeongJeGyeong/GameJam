@@ -14,16 +14,26 @@ public class RaycastPlayerDetector : MonoBehaviour, IPlayerDetector
 
     public bool IsPlayerDetected()
     {
-        RaycastHit2D hit = Physics2D.Raycast(rayOrigin.position, direction.normalized, detectionDistance, playerLayer);
-        return hit.collider != null;
+        Vector2 dirNormalized = direction.normalized;
+
+        // 왼쪽 방향 감지
+        RaycastHit2D hit1 = Physics2D.Raycast(rayOrigin.position, -dirNormalized, detectionDistance, playerLayer);
+        // 오른쪽 방향 감지
+        RaycastHit2D hit2 = Physics2D.Raycast(rayOrigin.position, dirNormalized, detectionDistance, playerLayer);
+
+        return hit1.collider != null || hit2.collider != null;
     }
 
     private void OnDrawGizmosSelected()
     {
+        if (rayOrigin == null) return;
+
+        Vector2 dirNormalized = direction.normalized;
         Gizmos.color = Color.cyan;
-        if (rayOrigin != null)
-        {
-            Gizmos.DrawLine(rayOrigin.position, rayOrigin.position + (Vector3)(direction.normalized * detectionDistance));
-        }
+
+        // 오른쪽 방향
+        Gizmos.DrawLine(rayOrigin.position, rayOrigin.position + (Vector3)(dirNormalized * detectionDistance));
+        // 왼쪽 방향
+        Gizmos.DrawLine(rayOrigin.position, rayOrigin.position + (Vector3)(-dirNormalized * detectionDistance));
     }
 }

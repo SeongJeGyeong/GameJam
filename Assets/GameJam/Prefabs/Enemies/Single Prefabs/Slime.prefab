@@ -326,8 +326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02aa48850a80c3d45bbd96e60a31a5d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkPoint: {fileID: 2513153631701375487}
-  atkRange: 3
   atkDamage: 1
   playerLayer:
     serializedVersion: 2
