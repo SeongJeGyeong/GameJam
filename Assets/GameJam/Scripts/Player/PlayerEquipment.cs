@@ -41,6 +41,8 @@ public class PlayerEquipment : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        skeletonAnimation.timeScale = 3.0f;
+
         equipList = new EquipList();
         equipList.leftHand.type = GlobalEnums.ItemType.EMPTY;
         equipList.leftHand.ID = -1;

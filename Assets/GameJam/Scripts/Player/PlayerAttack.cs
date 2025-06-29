@@ -32,7 +32,7 @@ public class PlayerAttack : MonoBehaviour
         Collider2D[] colliders = Physics2D.OverlapBoxAll(HitBoxPosition, HitBoxSize, 0f);
         foreach(Collider2D collider in colliders)
         {
-            if(collider.tag == "Monster")
+            if(!collider.isTrigger && collider.tag == "Monster")
             {
                 Monster monster = collider.GetComponent<Monster>();
                 if(monster != null) monster.TakeDamage(weapon.attackPower);
