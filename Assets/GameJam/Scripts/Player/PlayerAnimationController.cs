@@ -93,4 +93,17 @@ public class PlayerAnimationController : MonoBehaviour
         originColor.a = 1f;
         skeleton.Skeleton.SetColor(originColor);
     }
+
+    public void Dead()
+    {
+        Debug.Log("»ç¸Á");
+        animator.SetTrigger("IsDead");
+        SkeletonAnimation skeleton = GetComponentInChildren<SkeletonAnimation>();
+        Color originColor = skeleton.Skeleton.GetColor();
+        originColor.a = 1f;
+        skeleton.Skeleton.SetColor(originColor);
+        //SkeletonAnimation skeleton = GetComponentInChildren<SkeletonAnimation>();
+        //Spine.AnimationState spineAnimationState = skeleton.state;
+        //spineAnimationState.SetAnimation(0, "Death", false);
+    }
 }

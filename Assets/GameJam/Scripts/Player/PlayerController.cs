@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     PlayerStatus playerStatus;
 
+    bool isDead = false;
+
     void Start()
     {
         playerMovement.OnMove += playerAnimationController.HandleMove;
@@ -31,11 +33,15 @@ public class PlayerController : MonoBehaviour
         playerAttack.OnAttack += playerAnimationController.HandleAttack;
         playerEquipment.OnApplyAttackPower += playerStatus.SetAttackPower;
         playerEquipment.OnApplyDurability += playerStatus.SetDurability;
+        playerStatus.OnDead += playerAnimationController.Dead;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (isDead) return;
+
         playerMovement.SetMoveInput(Input.GetAxisRaw("Horizontal"));
         if(Input.GetKeyDown(KeyCode.Space)) playerMovement.ReadyJump();
         if(Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
@@ -77,11 +83,19 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag == "Monster")
+        if (collision.tag == "Monster" || collision.tag == "Trap")
         {
-            playerMovement.Knockback(new Vector2(collision.transform.position.x, collision.transform.position.y));
-            gameObject.layer = 11;
             playerStatus.ChangeDurability(-1);
+            gameObject.layer = 11;
+            if (playerStatus.GetDurability() < 0)
+            {
+                isDead = true;
+            }
+            else
+            {
+                if (playerStatus.GetDurability() == 0) playerEquipment.SetArmorChange(new Equipment());
+                playerMovement.Knockback(new Vector2(collision.transform.position.x, collision.transform.position.y));
+            }
         }
     }
 

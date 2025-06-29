@@ -8,6 +8,7 @@ TagManager:
   - Item
   - Ground
   - Wall
+  - Trap
   layers:
   - Default
   - TransparentFX
