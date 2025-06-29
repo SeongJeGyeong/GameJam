@@ -12,11 +12,6 @@ public class PlayerAttack : MonoBehaviour
 
     public event Action<int> OnAttack;
 
-    void Update()
-    {
-        
-    }
-
     public void Attack()
     {
         EquippedWeapon weapon = playerEquipment.GetEquipList().leftHand;
@@ -34,6 +29,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if(!collider.isTrigger && collider.tag == "Monster")
             {
+                Debug.Log("몬스터 공격");
                 Monster monster = collider.GetComponent<Monster>();
                 if(monster != null) monster.TakeDamage(weapon.attackPower);
             }

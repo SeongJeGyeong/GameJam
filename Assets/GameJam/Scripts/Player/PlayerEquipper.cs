@@ -19,26 +19,6 @@ public class PlayerEquipper : MonoBehaviour
         overlappedList = new List<GameObject>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-       //Collider2D[] Overlapped = Physics2D.OverlapCapsuleAll(new Vector2(0, 1.6f), new Vector2(4, 3.8f), CapsuleDirection2D.Vertical, 0);
-       // foreach(Collider2D overlapObject in Overlapped)
-       // {
-       //     if (overlapObject.tag == "Item")
-       //     {
-       //         overlappedCheckList.Add(overlapObject.gameObject);
-       //     }
-       // }
-       // foreach(GameObject item in overlappedList)
-       // {
-       //     if(!overlappedCheckList.Contains(item))
-       //     {
-       //         overlappedList.Remove(item);
-       //     }
-       // }
-    }
-
     public void Equip()
     {
         if (overlappedList.Count() < 1) return;

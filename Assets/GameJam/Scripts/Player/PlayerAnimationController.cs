@@ -45,6 +45,7 @@ public class PlayerAnimationController : MonoBehaviour
         }
         else if(stateInfo.IsName("Hurt") && stateInfo.normalizedTime >= 1.0f)
         {
+            Debug.Log("Hurt Á¾·á");
             OnMoveEnable?.Invoke(true);
         }
     }
@@ -86,7 +87,7 @@ public class PlayerAnimationController : MonoBehaviour
         Color originColor = skeleton.Skeleton.GetColor();
         originColor.a = 0.5f;
         skeleton.Skeleton.SetColor(originColor);
-        OnMoveEnable?.Invoke(false);
+        //OnMoveEnable?.Invoke(false);
         animator.SetTrigger("IsHurted");
         Invoke("OffDamaged", 2);
     }
@@ -94,7 +95,7 @@ public class PlayerAnimationController : MonoBehaviour
     void OffDamaged()
     {
         gameObject.layer = 6;
-        OnMoveEnable?.Invoke(true);
+        //OnMoveEnable?.Invoke(true);
         SkeletonAnimation skeleton = GetComponentInChildren<SkeletonAnimation>();
         Color originColor = skeleton.Skeleton.GetColor();
         originColor.a = 1f;

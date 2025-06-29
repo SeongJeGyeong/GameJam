@@ -47,8 +47,8 @@ public class PlayerEquipment : MonoBehaviour
         equipList.leftHand.type = GlobalEnums.ItemType.EMPTY;
         equipList.leftHand.ID = -1;
         equipList.leftHand.attackSpeed = 1;
+        equipList.leftHand.hitBoxSize = new Vector2(2, 1);
         equipList.rightHand.ID = -1;
-        equipList.rightHand.hitBoxSize = new Vector2(2, 1);
 
         equipList.armor.ID = 0;
         ApplyEquipChange();
@@ -71,7 +71,7 @@ public class PlayerEquipment : MonoBehaviour
         equipList.leftHand.ID = weapon.GetItemNumber();
         equipList.leftHand.attackPower = weapon.GetAttackStat();
         equipList.leftHand.attackSpeed = weapon.attackSpeed;
-        if(weapon.GetWeaponType() == WeaponType.Melee) equipList.leftHand.hitBoxSize = weapon.hitBoxSize;
+        equipList.leftHand.hitBoxSize = (weapon.GetWeaponType() == WeaponType.Melee) ? weapon.hitBoxSize : Vector2.zero;
         OnApplyAttackPower?.Invoke(equipList.leftHand.attackPower);
         ApplyEquipChange();
     }
