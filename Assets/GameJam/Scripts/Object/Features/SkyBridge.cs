@@ -31,6 +31,24 @@ public class SkyBridge : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D collision)
-    {    
+    {
+        foreach (ContactPoint2D contact in collision.contacts)
+        {
+            // 플레이어가 위에서 밟은 경우만 (법선이 위를 향함)
+            if (contact.normal.y < -0.5f)
+            {
+                // 플레이어를 이 플랫폼의 자식으로 설정
+                collision.transform.SetParent(transform);
+                break;
+            }
+        }
+
+        //collision.gameObject.transform.parent = gameObject.transform;
+        //transform.parent = collision
+    }
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        collision.gameObject.transform.parent = null;
+        //transform.parent = collision
     }
 }

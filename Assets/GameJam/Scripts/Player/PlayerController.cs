@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
         playerMovement.SetMoveInput(Input.GetAxisRaw("Horizontal"));
         if (Input.GetKeyDown(KeyCode.Space) && playerAnimationController) playerMovement.ReadyJump();
         if (Input.GetKeyDown(KeyCode.E)) playerEquipper.Equip();
-        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) playerAttack.Attack();
+        if (Input.GetMouseButtonDown(0) /*&& !EventSystem.current.IsPointerOverGameObject()*/) playerAttack.Attack();
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -65,14 +65,6 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
-    //private void OnCollisionExit2D(Collision2D collision)
-    //{
-    //    if (collision.collider.tag == "Ground")
-    //    {
-    //        playerAnimationController.HandleFall();
-    //    }
-    //}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -39,11 +39,6 @@ public class PlayerMovement : MonoBehaviour
             isGround = false;
         }
 
-        //if(playerRigid.velocity.y <= 0)
-        //{
-        //    OnGrounded?.Invoke();
-        //}
-
         Move();
     }
 
@@ -63,16 +58,17 @@ public class PlayerMovement : MonoBehaviour
 
     public void ReadyJump()
     {
-        if (isJumping || !isMovable) return;
+        if (isJumping || !isMovable || !isGround) return;
         isJumping = true;
-        isMovable = false;
+        //SetIsMovable(false);
+        Debug.Log("레디점프");
         OnJump?.Invoke();
     }
 
     public void StartJump()
     {
         playerRigid.AddForce(transform.up * jumpForce);
-        isMovable = true;
+        //SetIsMovable(true);
     }
 
     public void SetIsMovable(bool Movable)

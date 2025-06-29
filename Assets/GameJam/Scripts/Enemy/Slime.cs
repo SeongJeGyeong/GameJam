@@ -7,18 +7,18 @@ public class Slime : MonsterBase
     //[SerializeField] private LayerMask playerLayer;
 
     /// <summary>
-    /// ÇÃ·¹ÀÌ¾î¸¦ °¨ÁöÇßÀ» ¶§ ½ÇÇàµÇ´Â Çàµ¿ (°ø°Ý)
+    /// ï¿½Ã·ï¿½ï¿½Ì¾î¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½àµ¿ (ï¿½ï¿½ï¿½ï¿½)
     /// </summary>
     protected override void OnPlayerDetected()
     {
-        // ÇÃ·¹ÀÌ¾î°¡ °¨ÁöµÆÀ» ¶§ ¸ó½ºÅÍ°¡ ÇÒ Çàµ¿
+        // ï¿½Ã·ï¿½ï¿½Ì¾î°¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Í°ï¿½ ï¿½ï¿½ ï¿½àµ¿
 
         //if (playerTransform == null) return;
 
-        //// ÃßÀû ¼Óµµ Àû¿ë
+        //// ï¿½ï¿½ï¿½ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½
         //mover?.SetMoveSpeed(chaseSpeed);
 
-        //// ÃßÀû ÀÌµ¿
+        //// ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½
         //Vector2 direction = (playerTransform.position - transform.position).normalized;
         //mover?.MoveTo(direction);
 
