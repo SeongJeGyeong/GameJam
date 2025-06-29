@@ -45,6 +45,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7770478647164817213, guid: 410e9d3951bdb494c9019552b0b3831e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 43f009470985d5d4d97b1b54f51da39c, type: 2}
     - target: {fileID: 8658998175251782411, guid: 410e9d3951bdb494c9019552b0b3831e, type: 3}
       propertyPath: m_Name
       value: Salamander_01
@@ -107,6 +111,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6982206679147797356}
     m_Modifications:
+    - target: {fileID: 2112469193832094868, guid: 6d15c1fa9fdeb1f4586a8ab8c5bb997b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 43f009470985d5d4d97b1b54f51da39c, type: 2}
     - target: {fileID: 2513153631701375487, guid: 6d15c1fa9fdeb1f4586a8ab8c5bb997b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.63
