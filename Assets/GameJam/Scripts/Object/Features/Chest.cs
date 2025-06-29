@@ -12,7 +12,8 @@ public class Chest : MonoBehaviour
     Sprite openSprite;
     [SerializeField]
     BoxCollider2D boxCollider;
-
+    [SerializeField]
+    bool IsRandom;
     [SerializeField]
     private List<int> meleeTypeNum;
     [SerializeField]
@@ -22,7 +23,10 @@ public class Chest : MonoBehaviour
     int randomNum;
     void Start()
     {
-        randomItem = (RandomItem)Random.Range(0, 2);
+        if (IsRandom)
+        {
+            randomItem = (RandomItem)Random.Range(0, 2);
+        }
         itemSpawner = GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>();
         randomNum = 0;
     }
@@ -34,23 +38,21 @@ public class Chest : MonoBehaviour
         {
             case RandomItem.Melee:
                 randomNum = Random.Range(0, 7);
-                Debug.Log(randomNum);
 
                 if (randomNum > 3)
                 {
-                    itemSpawner.SpawnItem(spawnPoint.position, GlobalEnums.ItemType.STAFF, meleeTypeNum[randomNum], 10);
+                    itemSpawner.SpawnItem(spawnPoint.position, GlobalEnums.ItemType.STAFF, meleeTypeNum[randomNum], itemSpawner.StaffPrefabs[randomNum-4].GetComponent<Weapon>().GetAttackStat());
                 }
                 else
                 {
-                    itemSpawner.SpawnItem(spawnPoint.position, GlobalEnums.ItemType.MELEE, meleeTypeNum[randomNum], 10);
+                    itemSpawner.SpawnItem(spawnPoint.position, GlobalEnums.ItemType.MELEE, meleeTypeNum[randomNum], itemSpawner.MeleePrefabs[randomNum].GetComponent<Weapon>().GetAttackStat());
                 }
                 break;
 
             case RandomItem.Armor:
                 randomNum = Random.Range(0, 4);
-                Debug.Log(randomNum);
-
-                itemSpawner.SpawnItem(spawnPoint.position, GlobalEnums.ItemType.ARMOR, armorTypeNum[randomNum], 0);
+                
+                itemSpawner.SpawnItem(spawnPoint.position, GlobalEnums.ItemType.ARMOR, armorTypeNum[randomNum], itemSpawner.EquipmentPrefabs[randomNum + 1].GetComponent<Equipment>().durability);
                 break;
 
         }
@@ -62,7 +64,6 @@ public class Chest : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = openSprite;
         SpawnRandomItem();
         yield return new WaitForSeconds(1.0f);
-        Debug.Log("확인2");
         Destroy(gameObject);
     }
 
@@ -70,7 +71,6 @@ public class Chest : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            Debug.Log("확인1");
             StartCoroutine("OpenChest");
         }
     }

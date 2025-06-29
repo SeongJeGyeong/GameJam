@@ -80,7 +80,7 @@ public class PlayerEquipment : MonoBehaviour
     {
         equipList.armor.ID = equipment.GetItemNumber();
         equipList.armor.durability = equipment.durability;
-        OnApplyDurability?.Invoke(equipList.armor.durability);
+        OnApplyDurability?.Invoke(equipment.durability);
         ApplyEquipChange();
     }
 

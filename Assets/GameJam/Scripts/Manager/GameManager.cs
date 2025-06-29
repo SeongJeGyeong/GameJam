@@ -31,21 +31,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void InitGame()
-    {
-        
-    }
-
-    public void PauseGame()
-    {
-
-    }
-
-    public void ContinueGame()
-    {
-
-    }
-
     public void LoadLobbyScene()
     {
         SceneManager.LoadScene("TitleScene");

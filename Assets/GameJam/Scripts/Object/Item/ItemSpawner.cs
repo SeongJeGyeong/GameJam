@@ -7,11 +7,11 @@ using static UnityEngine.UI.CanvasScaler;
 public class ItemSpawner : MonoBehaviour
 {
     [SerializeField]
-    private List<GameObject> MeleePrefabs;
+    public List<GameObject> MeleePrefabs;
     [SerializeField]
-    private List<GameObject> StaffPrefabs;
+    public List<GameObject> StaffPrefabs;
     [SerializeField]
-    private List<GameObject> EquipmentPrefabs;
+    public List<GameObject> EquipmentPrefabs;
     [SerializeField]
     private List<GameObject> ConsumptionPrefabs;
     [SerializeField]
