@@ -21,6 +21,11 @@ public class PlayerStatus : MonoBehaviour
         }
     }
 
+    public int GetDurability()
+    {
+        return totalDurability;
+    }
+
     public void SetDurability(int durability)
     {
         totalDurability = durability;

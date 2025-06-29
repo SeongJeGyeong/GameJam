@@ -1,50 +1,90 @@
 using System.Collections;
 using UnityEngine;
 
-public class Monster : MonoBehaviour
+/// <summary>
+/// 공통 몬스터 기능: 피격 / 공격 / 애니메이션 / 쿨타임
+/// </summary>
+public abstract class Monster : MonsterBase
 {
+    [Header("Status")]
     public int currentHp = 1;
-    public float moveSpeed = 5f;
-    public float jumpPower = 10;
     public float atkCoolTime = 3f;
-    public float atkCoolTimeCalc = 3f;
 
+    [Header("State Flags")]
     public bool isHit = false;
-    public bool isGround = true;
     public bool canAtk = true;
-    public bool MonsterDirRight;
 
-    protected Rigidbody2D rb;
-    protected BoxCollider2D boxCollider;
-    public GameObject hitBoxCollider;
-    public Animator Anim;
-    public LayerMask layerMask;
+    [Header("References")]
+    public GameObject hitCircleCollider;
+    public Transform atkPoint;
+    public float atkRange = 1f;
+    public int atkDamage = 1;
+    public LayerMask playerLayer;
+    public Animator anim;
 
+    private float atkCoolTimeCalc;
 
-    protected void Awake()
+    protected override void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
-        boxCollider = GetComponent<BoxCollider2D>();
-        Anim = GetComponent<Animator>();
+        base.Awake();
+        anim = GetComponent<Animator>();
+        atkCoolTimeCalc = atkCoolTime;
 
         StartCoroutine(CalcCoolTime());
-        StartCoroutine(ResetCollider());
+        StartCoroutine(ResetHit());
     }
 
-    IEnumerator ResetCollider()
+    protected override void Update()
+    {
+        base.Update();
+
+        // 공격 대기 중에는 쿨타임 감소
+        if (!canAtk)
+        {
+            atkCoolTimeCalc -= Time.deltaTime;
+
+            if (atkCoolTimeCalc <= 0f)
+            {
+                atkCoolTimeCalc = atkCoolTime;
+                canAtk = true;
+            }
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHp -= damage;
+        isHit = true;
+        hitCircleCollider.SetActive(false);
+
+        if (anim != null)
+            anim.SetBool("isHurt", true);
+
+        StartCoroutine(ResetHurtFlag());
+    }
+
+    private IEnumerator ResetHurtFlag()
+    {
+        yield return new WaitForSeconds(1f);
+        if (anim != null)
+            anim.SetBool("isHurt", false);
+    }
+
+    private IEnumerator ResetHit()
     {
         while (true)
         {
             yield return null;
-            if (!hitBoxCollider.activeInHierarchy)
+            if (!hitCircleCollider.activeInHierarchy)
             {
                 yield return new WaitForSeconds(0.5f);
-                hitBoxCollider.SetActive(true);
+                hitCircleCollider.SetActive(true);
                 isHit = false;
             }
         }
     }
-    IEnumerator CalcCoolTime()
+
+    private IEnumerator CalcCoolTime()
     {
         while (true)
         {
@@ -52,7 +92,7 @@ public class Monster : MonoBehaviour
             if (!canAtk)
             {
                 atkCoolTimeCalc -= Time.deltaTime;
-                if (atkCoolTimeCalc <= 0)
+                if (atkCoolTimeCalc <= 0f)
                 {
                     atkCoolTimeCalc = atkCoolTime;
                     canAtk = true;
@@ -61,88 +101,38 @@ public class Monster : MonoBehaviour
         }
     }
 
-    public bool IsPlayingAnim(string AnimName)
+    protected override void OnPlayerDetected()
     {
-        if (Anim.GetCurrentAnimatorStateInfo(0).IsName(AnimName))
-        {
-            return true;
-        }
-        return false;
-    }
-    public void MyAnimSetTrigger(string AnimName)
-    {
-        if (!IsPlayingAnim(AnimName))
-        {
-            Anim.SetTrigger(AnimName);
-        }
+        TryAttack();
     }
 
-    protected void MonsterFlip()
+    protected virtual void TryAttack()
     {
-        MonsterDirRight = !MonsterDirRight;
+        if (!canAtk) return;
 
-        Vector3 thisScale = transform.localScale;
-        if (MonsterDirRight)
+        Collider2D player = Physics2D.OverlapCircle(atkPoint.position, atkRange, playerLayer);
+        if (player != null)
         {
-            thisScale.x = -Mathf.Abs(thisScale.x);
-        }
-        else
-        {
-            thisScale.x = Mathf.Abs(thisScale.x);
-        }
-        transform.localScale = thisScale;
-        rb.velocity = Vector2.zero;
-    }
+            canAtk = false;
 
-    protected bool IsPlayerDir()
-    {
-        /*
-        if (transform.position.x < PlayerData.Instance.Player.transform.position.x ? MonsterDirRight : !MonsterDirRight)
-        {
-            return true;
-        }
-         */
+            if (anim != null)
+                anim.SetTrigger("Attack");
 
-        return false;
-
-    }
-
-    protected void GroundCheck()
-    {
-        if (Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.size, 0, Vector2.down, 0.05f, layerMask))
-        {
-            isGround = true;
-        }
-        else
-        {
-            isGround = false;
+            ExecuteAttack(player);
         }
     }
 
-    public void TakeDamage(int dam)
-    {
-        Debug.Log("맞음");
-        currentHp -= dam;
-        isHit = true;
-        // Knock Back or Dead
-        hitBoxCollider.SetActive(false);
+    /// <summary>
+    /// 공격 실제 실행 (데미지 적용 등)
+    /// </summary>
+    protected abstract void ExecuteAttack(Collider2D target);
 
-        if(isHit)
-        Anim.SetBool("isHurt", true);
-        StartCoroutine(ResetHurtFlag());
-    }
-
-    private IEnumerator ResetHurtFlag()
+    protected virtual void OnDrawGizmosSelected()
     {
-        yield return new WaitForSeconds(1f); // 0.3초 후 isHurt를 false로
-        Anim.SetBool("isHurt", false);
-    }
-
-    protected void OnTriggerEnter2D(Collider2D collision)
-    {
-        //if ( collision.transform.CompareTag ( ?? ) )
-        //{
-        //TakeDamage ( 0 );
-        //}
+        if (atkPoint != null)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(atkPoint.position, atkRange);
+        }
     }
 }
