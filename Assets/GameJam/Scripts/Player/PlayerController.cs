@@ -14,22 +14,21 @@ public class PlayerController : MonoBehaviour
     PlayerAttack playerAttack;
     [SerializeField]
     PlayerEquipper playerEquipper;
-
-    public event Action OnFall;
-    public event Action OnLand;
-    public event Action<Vector2> OnDamaged;
+    [SerializeField]
+    PlayerEquipment playerEquipment;
+    [SerializeField]
+    PlayerStatus playerStatus;
 
     void Start()
     {
         playerMovement.OnMove += playerAnimationController.HandleMove;
         playerMovement.OnJump += playerAnimationController.HandleReadyJump;
+        playerMovement.OnHurted += playerAnimationController.HandleDamaged;
         playerAnimationController.OnStartJump += playerMovement.StartJump;
         playerAnimationController.OnMoveEnable += playerMovement.SetIsMovable;
         playerAttack.OnAttack += playerAnimationController.HandleAttack;
-        OnFall += playerAnimationController.HandleFall;
-        OnLand += playerAnimationController.HandleLand;
-        OnDamaged += playerMovement.Knockback;
-        playerMovement.OnHurted += playerAnimationController.HandleDamaged;
+        playerEquipment.OnApplyAttackPower += playerStatus.SetAttackPower;
+        playerEquipment.OnApplyDurability += playerStatus.SetDurability;
     }
 
     // Update is called once per frame
@@ -46,11 +45,7 @@ public class PlayerController : MonoBehaviour
         if(collision.collider.tag == "Ground")
         {
             playerMovement.isGround = true;
-            OnLand?.Invoke();
-        }
-        if(collision.collider.tag == "Monster")
-        {
-            OnDamaged?.Invoke(new Vector2(collision.transform.position.x, collision.transform.position.y));
+            playerAnimationController.HandleLand();
         }
     }
 
@@ -59,9 +54,35 @@ public class PlayerController : MonoBehaviour
         if (collision.collider.tag == "Ground")
         {
             playerMovement.isGround = false;
-            OnFall?.Invoke();
+            playerAnimationController.HandleFall();
         }
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Item")
+        {
+            playerEquipper.AddOverlappedItem(collision.gameObject);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Monster")
+        {
+            playerMovement.Knockback(new Vector2(collision.transform.position.x, collision.transform.position.y));
+            gameObject.layer = 11;
+            playerStatus.ChangeDurability(-1);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Item")
+        {
+            playerEquipper.RemoveOverlappedItem(collision.gameObject);
+        }
     }
 }
 
