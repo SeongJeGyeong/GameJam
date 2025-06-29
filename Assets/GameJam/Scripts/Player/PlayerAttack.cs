@@ -12,11 +12,6 @@ public class PlayerAttack : MonoBehaviour
 
     public event Action<int> OnAttack;
 
-    void Update()
-    {
-        
-    }
-
     public void Attack()
     {
         EquippedWeapon weapon = playerEquipment.GetEquipList().leftHand;

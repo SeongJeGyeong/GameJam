@@ -41,4 +41,13 @@ public class SpineAnimatorBehaviour : StateMachineBehaviour
             trackEntry.TimeScale = timeScale;
         }
     }
+
+    public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        if (animationClip == "Hurt")
+        {
+            PlayerMovement movement = animator.GetComponent<PlayerMovement>();
+            movement.SetIsMovable(true);
+        }
+    }
 }

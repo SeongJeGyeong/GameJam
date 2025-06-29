@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(isMovable)
         {
-            //Debug.Log("velocity : " + playerRigid.velocity.x + ", " + playerRigid.velocity.y);
+            Debug.Log("¿Ãµø");
             playerRigid.velocity = new Vector2(moveInput * speed, playerRigid.velocity.y);
             OnMove?.Invoke(moveInput);
         }
@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void ReadyJump()
     {
-        if (isJumping) return;
+        if (isJumping || !isMovable) return;
         isJumping = true;
         isMovable = false;
         OnJump?.Invoke();
