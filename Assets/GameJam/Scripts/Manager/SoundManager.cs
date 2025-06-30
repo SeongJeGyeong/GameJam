@@ -67,6 +67,11 @@ public class SoundManager : MonoBehaviour
         audioSource.PlayOneShot(AudioClips[(int)sEnum]);
     }
 
+    public void StopBGM()
+    {
+        audioBackGroundSource.Stop();
+    }
+
     public void PlayerBackGroundSound(SoundEnum sEnum)
     {
         //audioBackGroundSource.PlayOneShot(AudioClips[(int)sEnum]);

@@ -47,6 +47,7 @@ public class Goal : MonoBehaviour
 
     IEnumerator ActiveGameClearUI()
     {
+        SoundManager.Instance.StopBGM();
         SoundManager.Instance.PlaySound(SoundEnum.StageClear);
         clear = true;
         //Time.timeScale = 0f;
@@ -58,8 +59,9 @@ public class Goal : MonoBehaviour
         GameManager.Instance.LoadLobbyScene();
     }
 
-    void ActiveGameFailUI()
+    public void ActiveGameFailUI()
     {
+        SoundManager.Instance.StopBGM();
         SoundManager.Instance.PlaySound(SoundEnum.StageFail);
         failUI.SetActive(true);
     }

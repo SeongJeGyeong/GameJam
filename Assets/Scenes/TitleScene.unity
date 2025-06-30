@@ -963,29 +963,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioClips:
-  - {fileID: 8300000, guid: 7293b7fb556150d44beec0543243c0d0, type: 3}
-  - {fileID: 8300000, guid: 9ef2e49355aca0e47a0fd7c1779dfa16, type: 3}
-  - {fileID: 8300000, guid: cc382d578eb501148bd6f9c6d2848635, type: 3}
-  - {fileID: 8300000, guid: 26275602c490f412f9f401ad28fe3506, type: 3}
-  - {fileID: 8300000, guid: e1f874dcc05ae4aa3aff7f19ce097693, type: 3}
-  - {fileID: 8300000, guid: 022027cf015a14505bc83d397a8948f2, type: 3}
-  - {fileID: 8300000, guid: 108daec974202456a80c1f1d8db3bf0d, type: 3}
-  - {fileID: 8300000, guid: a9f3fa905fe624e87bf2a4d8649b4b02, type: 3}
-  - {fileID: 8300000, guid: 8f2336ea806e943069fb0c9f583850a3, type: 3}
-  - {fileID: 8300000, guid: 2c6a6568deff94c83beefd9cdd26d7b9, type: 3}
-  - {fileID: 8300000, guid: 13889b43efa7541c297fb4be869d5229, type: 3}
-  - {fileID: 8300000, guid: d9c5d19167bc644a8ab33b3d8c92062a, type: 3}
-  - {fileID: 8300000, guid: 858e9d9b386ad4143bbd57d9400def85, type: 3}
-  - {fileID: 8300000, guid: 6bb2216d182ab4f1b9829f062a5dba59, type: 3}
-  - {fileID: 8300000, guid: daa3593f8f536d147a4a685ec3cea7f5, type: 3}
-  - {fileID: 8300000, guid: 702540121995756438851905edb57286, type: 3}
-  - {fileID: 8300000, guid: af95f026f48e72942b21b12e009612f3, type: 3}
-  - {fileID: 8300000, guid: 99c80aed84549ff469f76ffe97a50271, type: 3}
-  - {fileID: 8300000, guid: d6bd8c83afafb9b4bbdd09d15c0d568d, type: 3}
-  - {fileID: 8300000, guid: a5b9076f68122f44b8c59768663c48da, type: 3}
+  - {fileID: 8300000, guid: b95a7bd0927cb2542aefd7db49144156, type: 3}
+  - {fileID: 8300000, guid: 8df80f25671cefe408721899188ea15e, type: 3}
+  - {fileID: 8300000, guid: d24b4a9f75ca0d440be07f3c3fc4a598, type: 3}
+  - {fileID: 8300000, guid: 8764b6e95e078fa42896d7102b09866c, type: 3}
+  - {fileID: 8300000, guid: 9f1c5c67cb572c348973efd6b57e79fb, type: 3}
+  - {fileID: 8300000, guid: e4b2e1c5c5b823f41baf74d7ee97fddd, type: 3}
+  - {fileID: 8300000, guid: eea33b86838ad204bb0e1b5a785543ee, type: 3}
+  - {fileID: 8300000, guid: a5073af123041214ab8d29682f8cdc92, type: 3}
+  - {fileID: 8300000, guid: e97178e031bd40941bed85a1339f2bdc, type: 3}
+  - {fileID: 8300000, guid: f2955f121ab50074d852064fd5e79fbc, type: 3}
+  - {fileID: 8300000, guid: d0eed4eec644a7c47995ed079c6d5ab6, type: 3}
+  - {fileID: 8300000, guid: 9b6c377091884dc4fb2721b816377c85, type: 3}
+  - {fileID: 8300000, guid: a5c211d49bb6f9e488c8c9a8fc3de2fd, type: 3}
+  - {fileID: 8300000, guid: 1121e2eac1231734283eec43496821af, type: 3}
+  - {fileID: 8300000, guid: bf6663d1c87cada428f190b47b2b9733, type: 3}
+  - {fileID: 8300000, guid: 88a34abaf99458349bdd22e5a8bf7995, type: 3}
+  - {fileID: 8300000, guid: 24662488c27bcc549827abdc1495a6aa, type: 3}
+  - {fileID: 8300000, guid: 28b7fbb7c1bdceb4cb4be6c99dba00f8, type: 3}
+  - {fileID: 8300000, guid: 4fde91388a186d948aed9a73c9fec7c3, type: 3}
+  - {fileID: 8300000, guid: c9849117750171c4f8aebab8f6323d27, type: 3}
   - {fileID: 8300000, guid: a380a42ce3502714fb6ebfb4cd6045e4, type: 3}
-  - {fileID: 8300000, guid: 96593282f9c014249abdc9f22ce8d42a, type: 3}
-  - {fileID: 8300000, guid: 6904ea4a11bbea14cac5b9f3dbedb21c, type: 3}
+  - {fileID: 8300000, guid: 16a10b465de47314ea7c87e3ea3bcfd8, type: 3}
+  - {fileID: 8300000, guid: 11b01f51941470f4dbc354b1cac5bf91, type: 3}
   audioSource: {fileID: 1803794176}
   audioBackGroundSource: {fileID: 1803794177}
 --- !u!4 &1803794175
@@ -1111,7 +1111,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0

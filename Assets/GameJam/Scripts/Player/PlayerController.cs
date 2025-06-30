@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     PlayerEquipment playerEquipment;
     [SerializeField]
     PlayerStatus playerStatus;
+    [SerializeField]
+    Goal goal;
 
     bool isDead = false;
     void Start()
@@ -85,6 +87,7 @@ public class PlayerController : MonoBehaviour
                 Rigidbody2D rigid = GetComponent<Rigidbody2D>();
                 playerMovement.SetIsMovable(false);
                 rigid.velocity = Vector3.zero;
+                goal.ActiveGameFailUI();
             }
             else
             {

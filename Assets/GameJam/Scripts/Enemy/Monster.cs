@@ -61,8 +61,6 @@ public class Monster : MonsterBase
 
     public void TakeDamage(int damage)
     {
-        Debug.Log("맞음");
-
         SoundManager.Instance.PlaySound(SoundEnum.Hitted_Monster);
         currentHp -= damage;
         isHit = true;
