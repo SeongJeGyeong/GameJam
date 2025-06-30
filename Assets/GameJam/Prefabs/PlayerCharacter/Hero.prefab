@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 3381128727248265803}
   - component: {fileID: 5807919057961319544}
   - component: {fileID: 4744421772618703420}
-  - component: {fileID: 822604215876400516}
+  - component: {fileID: 6065637249473487433}
   - component: {fileID: 8301359076288763520}
   - component: {fileID: 3984456804121514018}
   - component: {fileID: 123959701905604112}
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 4744421772618703420}
-  playerAnimationController: {fileID: 822604215876400516}
+  playerAnimationController: {fileID: 6065637249473487433}
   playerAttack: {fileID: 8301359076288763520}
   playerEquipper: {fileID: 3984456804121514018}
   playerEquipment: {fileID: 123959701905604112}
@@ -330,7 +330,7 @@ MonoBehaviour:
   jumpForce: 700
   isGround: 1
   isJumping: 0
---- !u!114 &822604215876400516
+--- !u!114 &6065637249473487433
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

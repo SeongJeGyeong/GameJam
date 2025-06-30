@@ -1,9 +1,4 @@
-fileFormatVersion: 2
-<<<<<<< Updated upstream:Assets/Player/PlayerAnimationController.cs.meta
 guid: 0dc50da7ca43bb54d9159943a1735383
-=======
-guid: 17d97bca635cd834eb396cc53e3dda80
->>>>>>> Stashed changes:Assets/GameJam/Scripts/Player/PlayerAnimationController.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

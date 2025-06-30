@@ -33,7 +33,6 @@ public class Chest : MonoBehaviour
 
     void SpawnRandomItem()
     {
-        Debug.Log(randomItem);
         switch(randomItem)
         {
             case RandomItem.Melee:
