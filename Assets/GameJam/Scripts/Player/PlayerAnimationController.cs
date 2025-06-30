@@ -87,6 +87,7 @@ public class PlayerAnimationController : MonoBehaviour
         skeleton.Skeleton.SetColor(originColor);
         //OnMoveEnable?.Invoke(false);
         animator.SetTrigger("IsHurted");
+        animator.SetInteger("AttackType", 0);
         Invoke("OffDamaged", 2);
     }
 
