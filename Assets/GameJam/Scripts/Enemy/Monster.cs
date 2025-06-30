@@ -38,9 +38,14 @@ public class Monster : MonsterBase
 
     protected override void Update()
     {
-        if (currentHp <= 0) Destroy(gameObject); // 죽는거 수정해야함.
         base.Update();
 
+        if (currentHp <= 0)
+        {
+            Debug.Log("사망");
+            SoundManager.Instance.PlaySound(SoundEnum.Monster_Die);
+            Destroy(gameObject); // 죽는거 수정해야함.
+        }
         // 공격 대기 중에는 쿨타임 감소
         if (!canAtk)
         {
@@ -56,6 +61,8 @@ public class Monster : MonsterBase
 
     public void TakeDamage(int damage)
     {
+        Debug.Log("맞음");
+
         SoundManager.Instance.PlaySound(SoundEnum.Hitted_Monster);
         currentHp -= damage;
         isHit = true;

@@ -24,6 +24,9 @@ public enum SoundEnum
     ChestOpen,
     StageClear,
     StageFail,
+    Monster_Die,
+    TitleBackGround,
+    StageBackGround
 }
 public class SoundManager : MonoBehaviour
 {
@@ -32,7 +35,8 @@ public class SoundManager : MonoBehaviour
     public List<AudioClip> AudioClips;
     [SerializeField]
     AudioSource audioSource;
-
+    [SerializeField]
+    AudioSource audioBackGroundSource;
     void Awake()
     {
         if (null == instance)
@@ -61,5 +65,12 @@ public class SoundManager : MonoBehaviour
     public void PlaySound(SoundEnum sEnum)
     {
         audioSource.PlayOneShot(AudioClips[(int)sEnum]);
+    }
+
+    public void PlayerBackGroundSound(SoundEnum sEnum)
+    {
+        //audioBackGroundSource.PlayOneShot(AudioClips[(int)sEnum]);
+        audioBackGroundSource.clip = AudioClips[(int)sEnum];
+        audioBackGroundSource.Play();
     }
 }
